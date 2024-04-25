@@ -1,9 +1,10 @@
 import "./App.css";
+import Hero from './Hero.jsx';
 
 function App() {
   return (
     <>
-      <h1>scrumbleeggs</h1>
+      <Hero />
     </>
   );
 }
