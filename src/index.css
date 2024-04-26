@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 body {
-    background-image: url('./agile.png');
+    background-image: url('./assets/agile.png');
     background-size: cover;
-    background-position: top center;
+    background-position: center;
+    background-repeat: no-repeat;
 }

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Hero() {
     return (
-      <section className="bg-hero bg-cover bg-center flex flex-col items-center mt-6 lg:mt-20">
+      <section className="bg-hero flex flex-col items-center mt-6 lg:mt-20">
         <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
           Scrum Guide{" "}
           <span className="bg-gradient-to-r from-blue-500 to-red-800 text-transparent bg-clip-text">
