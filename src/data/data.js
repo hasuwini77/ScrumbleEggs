@@ -16,7 +16,7 @@ const Articels = [
             {
                 title: 'Getting Started',
                 subTitle: 'What is Scrum',
-                text: '',
+                content: "",
                 text2: '',
                 subTitle2: 'The three Scrum Artifacts',
                 text3: '',
@@ -52,7 +52,7 @@ const Articels = [
                 subTitle: 'History and origins',
                 text2: 'The meeting at Snowbird ski resort was preceded by a gathering organized by Kent Beck at the Rogue River Lodge in Oregon in the spring of 2000, which primarily focused on Extreme Programming proponents and a few outsiders. Discussions about "Light" or "Lightweight" methodologies took place throughout 2000, with proponents like Bob Martin advocating for a conference to bring together leaders in the field. Alistair Cockburn expressed dissatisfaction with the term "Light" due to its connotations. Eventually, a meeting was arranged in January to February 2001 in Chicago, leading to debates over the location, with Snowbird, Utah, being chosen. The Agile Alliance aims to promote innovative thinking in software development methodologies and organizations, encouraging agility in approach and mindset ',
                 subTitle2: 'Key Principles',
-                principle1: 'The highest priority is to satisfy the customer through early and continuous delivery of valuable software.', 
+                principle1: '<p>The highest priority is to satisfy the customer through early and continuous delivery of valuable software.', 
                 principle2: 'Welcome changing requirements, even late in development. Agile processes harness change for the customer’s competitive advantage', 
                 principle3: 'Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.', 
                 principle4: 'Business people and developers must work together daily throughout the project.', 
