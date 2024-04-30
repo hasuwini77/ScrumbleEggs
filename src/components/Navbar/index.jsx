@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Link, Button } from "@nextui-org/react";
 import { AcmeLogo } from "../../assets/AcmeLogo";
 import ToggleSwitchButton from "../ToggleSwitchButton";
+import styles from "./Navbar.module.css";
 
 export default function ScrumNavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -36,18 +37,26 @@ export default function ScrumNavBar() {
           </NavbarItem>
         </NavbarContent>
       </NavbarContent>
-      <NavbarMenu className="sm:hidden">
+      <NavbarMenu className="sm:hidden flex justify-start items-center">
         <NavbarMenuItem>
-          <Link href="#">Our Team</Link>
+          <Link href="#" className={styles.menuItems}>
+            Our Team
+          </Link>
         </NavbarMenuItem>
         <NavbarMenuItem>
-          <Link href="#">Learn Scrum</Link>
+          <Link href="#" className={styles.menuItems}>
+            Learn Scrum
+          </Link>
         </NavbarMenuItem>
         <NavbarMenuItem>
-          <Link href="#">Contact Us</Link>
+          <Link href="#" className={styles.menuItems}>
+            Contact Us
+          </Link>
         </NavbarMenuItem>
         <NavbarMenuItem>
-          <Link href="#">Dive In</Link>
+          <Link href="#" className={styles.menuItems}>
+            Dive In
+          </Link>
         </NavbarMenuItem>
       </NavbarMenu>
     </Navbar>

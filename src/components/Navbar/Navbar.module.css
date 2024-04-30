@@ -1,0 +1,16 @@
+.menuItems {
+  padding: 8px;
+  border-radius: 20px;
+  margin-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.menuItems:active {
+  background-color: rgb(42, 40, 40);
+  color: white;
+}
+.menuItems:focus {
+  background-color: black;
+  color: white;
+}
