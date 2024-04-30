@@ -1,6 +1,7 @@
 import React from "react";
-import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button} from "@nextui-org/react";
+import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button } from "@nextui-org/react";
 import { AcmeLogo } from "../../assets/AcmeLogo";
+import ToggleSwitchButton from "../ToggleSwitchButton";
 
 export default function ScrumNavBar() {
   return (
@@ -28,9 +29,7 @@ export default function ScrumNavBar() {
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem>
-          <Button as={Link} color="primary" href="#" variant="flat">
-            Theme
-          </Button>
+          <ToggleSwitchButton />
         </NavbarItem>
       </NavbarContent>
     </Navbar>
