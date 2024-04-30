@@ -1,4 +1,4 @@
-import styles from './ourTeam.module.css'
+/* import styles from './ourTeam.module.css'
 
 function OurTeam() {
   let message = `There are many variations of passages of Lorem Ipsum available but the \n majority have suffered alteration in some injected humour.`;
@@ -6,13 +6,13 @@ function OurTeam() {
   return (
     <>
     <section className={styles.sectionWhite}>
-      <div className="container">
-        <div className="col">
+      <div className="container mx-auto">
+        <div className="row">
           <div className="col-md-12 text-center">
             <h2 className={styles.sectionTitle}>The Team Behind Pacifico</h2>
             <p className={styles.sectionSubtitle}>{message}</p>
           </div>
-          <div className="col-sm-6 col-md-4">
+          <div className="col-sm-6 col-md-4 col-lg-4">
             <div className={styles.teamItem}>
               <img src="https://demo.epic-webdesign.com/tf-pacifico/v1/images/team1a.jpg" className={styles.teamImg} alt="pic" />
               <h3>JOHNATHAN HAWKINS</h3>
@@ -26,7 +26,7 @@ function OurTeam() {
               </ul>
             </div>
           </div>
-          <div className="col-sm-6 col-md-4">
+          <div className="col-sm-6 col-md-4 col-lg-4">
             <div className={styles.teamItem}>
               <img src="https://demo.epic-webdesign.com/tf-pacifico/v1/images/team2a.jpg" className={styles.teamImg} alt="pic" />
               <h3>ALEXANDRA SMITHS</h3>
@@ -40,7 +40,7 @@ function OurTeam() {
               </ul>
             </div>
           </div>
-          <div className="col-sm-6 col-md-4">
+          <div className="col-sm-6 col-md-4 col-lg-4">
             <div className={styles.teamItem}>
               <img src="https://demo.epic-webdesign.com/tf-pacifico/v1/images/team3a.jpg" className={styles.teamImg} alt="pic" />
               <h3>ELISA JOHANSON</h3>
@@ -61,11 +61,10 @@ function OurTeam() {
   )
 } 
 
-export default OurTeam 
+export default OurTeam  */
 
 
-
-/* import styles from './ourTeam.module.css';
+import styles from './ourTeam.module.css';
 
 function OurTeam() {
   let message = `There are many variations of passages of Lorem Ipsum available but the \n majority have suffered alteration in some injected humour.`;
@@ -73,14 +72,10 @@ function OurTeam() {
   return (
     <>
       <section className={styles.sectionWhite}>
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12 text-center">
-              <h2 className={styles.sectionTitle}>The Team Behind Pacifico</h2>
-              <p className={styles.sectionSubtitle}>{message}</p>
-            </div>
-            <div className="col-sm-6 col-md-4">
-              <div className="teamItem">
+        <div className="container mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
+            <div className="col-span-1">
+              <div className={styles.teamItem}>
                 <img src="https://demo.epic-webdesign.com/tf-pacifico/v1/images/team1a.jpg" className={styles.teamImg} alt="pic" />
                 <h3>JOHNATHAN HAWKINS</h3>
                 <div className={styles.teamInfo}><p>Head of SEO</p></div>
@@ -93,8 +88,8 @@ function OurTeam() {
                 </ul>
               </div>
             </div>
-            <div className="col-sm-6 col-md-4">
-              <div className="teamItem">
+            <div className="col-span-1">
+              <div className={styles.teamItem}>
                 <img src="https://demo.epic-webdesign.com/tf-pacifico/v1/images/team2a.jpg" className={styles.teamImg} alt="pic" />
                 <h3>ALEXANDRA SMITHS</h3>
                 <div className={styles.teamInfo}><p>SEO Specialist</p></div>
@@ -107,8 +102,8 @@ function OurTeam() {
                 </ul>
               </div>
             </div>
-            <div className="col-sm-6 col-md-4">
-              <div className="teamItem">
+            <div className="col-span-1">
+              <div className={styles.teamItem}>
                 <img src="https://demo.epic-webdesign.com/tf-pacifico/v1/images/team3a.jpg" className={styles.teamImg} alt="pic" />
                 <h3>ELISA JOHANSON</h3>
                 <div className={styles.teamInfo}><p>Marketing Manager</p></div>
@@ -128,4 +123,4 @@ function OurTeam() {
   );
 }
 
-export default OurTeam; */
+export default OurTeam;
