@@ -1,6 +1,6 @@
 import ScrumNavBar from "./components/Navbar";
 import ButtonComponent from "./components/Button";
-import OurTeam from "./components/ourTeam/OurTeam";
+import OurTeam from './components/OurTeam/OurTeam';
 
 function App() {
   return (
