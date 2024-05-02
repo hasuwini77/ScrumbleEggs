@@ -1,7 +1,7 @@
 import ScrumNavBar from "./components/Navbar";
 import ButtonComponent from "./components/Button";
 import SocialMediaBar from "./components/SocialMediaBar";
-import AccordeonMenu from "./components/AccordeonMenu";
+import MainContent from "./components/MainContent";
 
 function App() {
   return (
@@ -15,9 +15,7 @@ function App() {
       <div className="main-content flex flex-col md:flex-row">
         <MainContent />
       </div>
-      <div className="accordeon w-full md:w-[300px]">
-        <AccordeonMenu />
-      </div>
+
       <SocialMediaBar />
     </>
   );

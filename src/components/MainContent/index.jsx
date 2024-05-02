@@ -1,19 +1,18 @@
 import { useState } from "react";
+import AccordeonMenu from "../AccordeonMenu";
 const MainContent = () => {
   const [content, setContent] = useState("welcome");
-  const handleClick = () => {};
+  const handleClick = () => {
+    setContent();
+  };
+
+  const welcomeMessage = "This is the Welcome page";
   return (
     <>
-      <div className="md:min-w-[400px] mr-3 p-4">
-        THis is Sidebar
-        <p className="p-4 cursor-pointer hover:bg-slate-300" onClick={handleClick}>
-          Article 1
-        </p>
-        <p className="p-4 cursor-pointer  hover:bg-slate-300" onClick={handleClick}>
-          Article 2
-        </p>
+      <div className="accordeon w-full md:w-[300px]">
+        <AccordeonMenu />
       </div>
-      <div className="md:p-4"> This is Welcome message dude</div>
+      <div className="md:p-4"> {welcomeMessage}</div>
     </>
   );
 };
