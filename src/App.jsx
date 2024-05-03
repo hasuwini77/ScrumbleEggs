@@ -1,6 +1,7 @@
 import ScrumNavBar from "./components/Navbar";
 import ButtonComponent from "./components/Button";
-import Footer from "./components/Footer";
+import SocialMediaBar from "./components/SocialMediaBar";
+import AccordeonMenu from "./components/AccordeonMenu";
 
 function App() {
   return (
@@ -11,7 +12,10 @@ function App() {
         <ButtonComponent text="button1" className="px-5 py-5 ml-3 mt-3" />
         <ButtonComponent text="button2" className="px-5 py-5 ml-3 mt-3" />
       </div>
-      <Footer/>
+      <div className="accordeon w-full md:w-[300px]">
+        <AccordeonMenu/>
+      </div>
+      <SocialMediaBar/>
     </>
   );
 }
