@@ -2,7 +2,7 @@ import ScrumNavBar from "./components/Navbar";
 import ButtonComponent from "./components/Button";
 import SocialMediaBar from "./components/SocialMediaBar";
 import AccordeonMenu from "./components/AccordeonMenu";
-
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
@@ -16,6 +16,7 @@ function App() {
         <AccordeonMenu/>
       </div>
       <SocialMediaBar/>
+      <Footer/>
     </>
   );
 }
