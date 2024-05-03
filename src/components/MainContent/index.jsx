@@ -24,10 +24,25 @@ const MainContent = () => {
             <li className="cursor-pointer p-3 hover:bg-slate-500 rounded-lg ">Scrum Artifacts</li>
           </AccordionItem>
           <AccordionItem key="3" aria-label="Accordion 3" title="Scrum Ceremonies" onClick={() => handleClick(3)}>
-            <li className="cursor-pointer p-3 hover:bg-slate-500 rounded-lg ">Daily Stand-Ups</li>
+            <li className="cursor-pointer p-3 hover:bg-slate-500 rounded-lg " href="#daily">
+              Daily Stand-Ups
+            </li>
             <li className="cursor-pointer p-3 hover:bg-slate-500 rounded-lg ">Sprint Planning</li>
             <li className="cursor-pointer p-3 hover:bg-slate-500 rounded-lg ">Sprint Review</li>
             <li className="cursor-pointer p-3 hover:bg-slate-500 rounded-lg ">Retrospectives</li>
+          </AccordionItem>
+          <AccordionItem key="4" aria-label="Accordion 4" title="Implementing Scrum" onClick={() => handleClick(4)}>
+            <li className="cursor-pointer p-3 hover:bg-slate-500 rounded-lg ">Getting Started</li>
+            <li className="cursor-pointer p-3 hover:bg-slate-500 rounded-lg ">Common Challenges & Solutions</li>
+            <li className="cursor-pointer p-3 hover:bg-slate-500 rounded-lg ">Case Studies and Examples</li>
+          </AccordionItem>
+          <AccordionItem key="5" aria-label="Accordion 5" title="Tools and Resources" onClick={() => handleClick(5)}>
+            <li className="cursor-pointer p-3 hover:bg-slate-500 rounded-lg ">Digital Tools</li>
+            <li className="cursor-pointer p-3 hover:bg-slate-500 rounded-lg ">Books and Articles</li>
+            <li className="cursor-pointer p-3 hover:bg-slate-500 rounded-lg ">Courses and Certifications</li>
+          </AccordionItem>
+          <AccordionItem key="6" aria-label="Accordion 6" title="FAQ" onClick={() => handleClick(6)}>
+            <li className="cursor-pointer p-3 hover:bg-slate-500 rounded-lg ">Frequently Asked Questions</li>
           </AccordionItem>
         </Accordion>
       </div>
