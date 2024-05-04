@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Accordion, AccordionItem } from "@nextui-org/react";
 import DisplayedContent from "../DisplayedContent";
 import styles from "./MainContent.module.css";
+
 const MainContent = () => {
   const [activeChapter, setActiveChapter] = useState(1);
 
@@ -9,40 +10,127 @@ const MainContent = () => {
     setActiveChapter(chapter);
   };
 
+  const handleAnchorClick = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      const offset = 60;
+      const y = element.getBoundingClientRect().top + window.pageYOffset - offset;
+      window.scrollTo({ top: y, behavior: "smooth" });
+    }
+  };
+
   return (
     <>
       <div className="accordeon w-full md:w-[300px] px-5 mr-5">
         <Accordion defaultExpandedKeys={[`${activeChapter}`]} selectionMode="single">
           <AccordionItem key="1" aria-label="Accordion 1" title="What is Agile?" onClick={() => handleClick(1)}>
-            <li className="cursor-pointer p-3 hover:bg-slate-500 rounded-lg ">History and Origins</li>
-            <li className="cursor-pointer p-3 hover:bg-slate-500 rounded-lg ">Definition of Agile</li>
-            <li className="cursor-pointer p-3 hover:bg-slate-500 rounded-lg ">Key Principles</li>
+            <ul>
+              <li className="cursor-pointer p-3 hover:bg-slate-700 hover:text-white rounded-lg">
+                <a onClick={() => handleAnchorClick("subtitle1")} className={styles.anchor}>
+                  History and Origins
+                </a>
+              </li>
+              <li className="cursor-pointer p-3 hover:bg-slate-700 hover:text-white rounded-lg">
+                <a onClick={() => handleAnchorClick("subtitle2")} className={styles.anchor}>
+                  Definition of Agile
+                </a>
+              </li>
+              <li className="cursor-pointer p-3 hover:bg-slate-700 hover:text-white rounded-lg">
+                <a onClick={() => handleAnchorClick("subtitle3")} className={styles.anchor}>
+                  Key Principles
+                </a>
+              </li>
+            </ul>
           </AccordionItem>
           <AccordionItem key="2" aria-label="Accordion 2" title="Scrum Basics" onClick={() => handleClick(2)}>
-            <li className="cursor-pointer p-3 hover:bg-slate-500 rounded-lg ">Overview of Scrum</li>
-            <li className="cursor-pointer p-3 hover:bg-slate-500 rounded-lg ">The Roles in Scrum</li>
-            <li className="cursor-pointer p-3 hover:bg-slate-500 rounded-lg ">Scrum Artifacts</li>
+            <ul>
+              <li className="cursor-pointer p-3 hover:bg-slate-700 hover:text-white rounded-lg">
+                <a onClick={() => handleAnchorClick("subtitle1")} className={styles.anchor}>
+                  Overview of Scrum
+                </a>
+              </li>
+              <li className="cursor-pointer p-3 hover:bg-slate-700 hover:text-white rounded-lg">
+                <a onClick={() => handleAnchorClick("subtitle2")} className={styles.anchor}>
+                  The Roles in Scrum
+                </a>
+              </li>
+              <li className="cursor-pointer p-3 hover:bg-slate-700 hover:text-white rounded-lg">
+                <a onClick={() => handleAnchorClick("subtitle3")} className={styles.anchor}>
+                  Scrum Artifacts
+                </a>
+              </li>
+            </ul>
           </AccordionItem>
           <AccordionItem key="3" aria-label="Accordion 3" title="Scrum Ceremonies" onClick={() => handleClick(3)}>
-            <li className="cursor-pointer p-3 hover:bg-slate-500 rounded-lg " href="#daily">
-              Daily Stand-Ups
-            </li>
-            <li className="cursor-pointer p-3 hover:bg-slate-500 rounded-lg ">Sprint Planning</li>
-            <li className="cursor-pointer p-3 hover:bg-slate-500 rounded-lg ">Sprint Review</li>
-            <li className="cursor-pointer p-3 hover:bg-slate-500 rounded-lg ">Retrospectives</li>
+            <ul>
+              <li className="cursor-pointer p-3 hover:bg-slate-700 hover:text-white rounded-lg">
+                <a onClick={() => handleAnchorClick("subtitle1")} className={styles.anchor}>
+                  Daily Stand-Ups
+                </a>
+              </li>
+              <li className="cursor-pointer p-3 hover:bg-slate-700 hover:text-white rounded-lg">
+                <a onClick={() => handleAnchorClick("subtitle2")} className={styles.anchor}>
+                  Sprint Planning
+                </a>
+              </li>
+              <li className="cursor-pointer p-3 hover:bg-slate-700 hover:text-white rounded-lg">
+                <a onClick={() => handleAnchorClick("subtitle3")} className={styles.anchor}>
+                  Sprint Review
+                </a>
+              </li>
+              <li className="cursor-pointer p-3 hover:bg-slate-700 hover:text-white rounded-lg">
+                <a onClick={() => handleAnchorClick("subtitle4")} className={styles.anchor}>
+                  Retrospectives
+                </a>
+              </li>
+            </ul>
           </AccordionItem>
           <AccordionItem key="4" aria-label="Accordion 4" title="Implementing Scrum" onClick={() => handleClick(4)}>
-            <li className="cursor-pointer p-3 hover:bg-slate-500 rounded-lg ">Getting Started</li>
-            <li className="cursor-pointer p-3 hover:bg-slate-500 rounded-lg ">Common Challenges & Solutions</li>
-            <li className="cursor-pointer p-3 hover:bg-slate-500 rounded-lg ">Case Studies and Examples</li>
+            <ul>
+              <li className="cursor-pointer p-3 hover:bg-slate-700 hover:text-white rounded-lg">
+                <a onClick={() => handleAnchorClick("subtitle1")} className={styles.anchor}>
+                  Getting Started
+                </a>
+              </li>
+              <li className="cursor-pointer p-3 hover:bg-slate-700 hover:text-white rounded-lg">
+                <a onClick={() => handleAnchorClick("subtitle2")} className={styles.anchor}>
+                  Common Challenges & Solutions
+                </a>
+              </li>
+              <li className="cursor-pointer p-3 hover:bg-slate-700 hover:text-white rounded-lg">
+                <a onClick={() => handleAnchorClick("subtitle3")} className={styles.anchor}>
+                  Case Studies and Examples
+                </a>
+              </li>
+            </ul>
           </AccordionItem>
           <AccordionItem key="5" aria-label="Accordion 5" title="Tools and Resources" onClick={() => handleClick(5)}>
-            <li className="cursor-pointer p-3 hover:bg-slate-500 rounded-lg ">Digital Tools</li>
-            <li className="cursor-pointer p-3 hover:bg-slate-500 rounded-lg ">Books and Articles</li>
-            <li className="cursor-pointer p-3 hover:bg-slate-500 rounded-lg ">Courses and Certifications</li>
+            <ul>
+              <li className="cursor-pointer p-3 hover:bg-slate-700 hover:text-white rounded-lg">
+                <a onClick={() => handleAnchorClick("subtitle1")} className={styles.anchor}>
+                  Digital Tools
+                </a>
+              </li>
+              <li className="cursor-pointer p-3 hover:bg-slate-700 hover:text-white rounded-lg">
+                <a onClick={() => handleAnchorClick("subtitle2")} className={styles.anchor}>
+                  Books and Articles
+                </a>
+              </li>
+              <li className="cursor-pointer p-3 hover:bg-slate-700 hover:text-white rounded-lg">
+                <a onClick={() => handleAnchorClick("subtitle3")} className={styles.anchor}>
+                  Courses and Certifications
+                </a>
+              </li>
+            </ul>
           </AccordionItem>
           <AccordionItem key="6" aria-label="Accordion 6" title="FAQ" onClick={() => handleClick(6)}>
-            <li className="cursor-pointer p-3 hover:bg-slate-500 rounded-lg ">Frequently Asked Questions</li>
+            <ul>
+              <li className="cursor-pointer p-3 hover:bg-slate-700 hover:text-white rounded-lg">
+                <a onClick={() => handleAnchorClick("subtitle1")} className={styles.anchor}>
+                  Frequently Asked Questions
+                </a>
+              </li>
+            </ul>
           </AccordionItem>
         </Accordion>
       </div>
