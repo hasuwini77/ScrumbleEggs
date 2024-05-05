@@ -159,7 +159,7 @@ const DisplayedContent = ({ activeChapter }) => {
       {chapters[activeChapter].paragraph1c !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph1c}</p>}
       {chapters[activeChapter].paragraph1d !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph1d}</p>}
       <div className="flex flex-col justify-center items-center">
-        <hr className="p-5 mt-4 mb-2 min-w-[200px] md:min-w-[500px] max-w-[620px]" />
+        <hr className="p-5 pt-3 mt-4 mb-2 min-w-[200px] md:min-w-[500px] max-w-[620px]" />
       </div>
       <h3 id="subtitle2" className="text-xl p-3">
         {chapters[activeChapter].subtitle2}
@@ -167,7 +167,7 @@ const DisplayedContent = ({ activeChapter }) => {
       {chapters[activeChapter].paragraph2 !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph2}</p>}
       {chapters[activeChapter].paragraph2b !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph2b}</p>}
       <div className="flex flex-col justify-center items-center">
-        <hr className="p-5 mt-4 mb-2 min-w-[200px] md:min-w-[500px] max-w-[620px]" />
+        <hr className="p-5 pt-3 mt-4 mb-2 min-w-[200px] md:min-w-[500px] max-w-[620px]" />
       </div>
       <h3 id="subtitle3" className="text-xl p-3">
         {chapters[activeChapter].subtitle3}
@@ -176,7 +176,7 @@ const DisplayedContent = ({ activeChapter }) => {
       {chapters[activeChapter].paragraph3b !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph3b}</p>}
       {chapters[activeChapter].paragraph3c !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph3c}</p>}
       <div className="flex flex-col justify-center items-center">
-        <hr className="p-5 mt-4 mb-2 min-w-[200px] md:min-w-[500px] max-w-[620px]" />
+        <hr className="p-5 pt-3  mt-4 mb-2 min-w-[200px] md:min-w-[500px] max-w-[620px]" />
       </div>
       <h3 id="subtitle4" className="text-xl p-3">
         {chapters[activeChapter].subtitle4}
@@ -184,21 +184,8 @@ const DisplayedContent = ({ activeChapter }) => {
       {chapters[activeChapter].paragraph4 !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph4}</p>}
       {chapters[activeChapter].paragraph4b !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph4b}</p>}
       <div className="flex flex-col justify-center items-center">
-        <hr className="p-5 mt-4 mb-2 min-w-[200px] md:min-w-[500px] max-w-[620px]" />
+        <hr className="p-5 pt-3 mt-4 mb-2 min-w-[200px] md:min-w-[500px] max-w-[620px]" />
       </div>
-      <h3 id="subtitle5" className="text-xl p-3">
-        {chapters[activeChapter].subtitle5}
-      </h3>
-      {chapters[activeChapter].paragraph5 !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph5}</p>}
-      {chapters[activeChapter].paragraph5b !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph5b}</p>}
-      <div className="flex flex-col justify-center items-center">
-        <hr className="p-5 mt-4 mb-2 min-w-[200px] md:min-w-[500px] max-w-[620px]" />
-      </div>
-      <h3 id="subtitle6" className="text-xl p-3">
-        {chapters[activeChapter].subtitle6}
-      </h3>
-      {chapters[activeChapter].paragraph6 !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph6}</p>}
-      {chapters[activeChapter].paragraph5b !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph6b}</p>}
       {chapters[activeChapter].img !== "" ? <img src={chapters[activeChapter].img} alt={chapters[activeChapter].title} className="p-3 max-w-[320px] mx-auto md:max-w-[60%]" /> : null}
     </div>
   );
