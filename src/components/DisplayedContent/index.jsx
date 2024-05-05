@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import standupPhoto1 from "../../assets/standupphoto1.jpg";
 
 const DisplayedContent = ({ activeChapter }) => {
