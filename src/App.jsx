@@ -1,9 +1,8 @@
 import ScrumNavBar from "./components/Navbar";
 import ButtonComponent from "./components/Button";
-import AccordeonMenu from "./components/AccordeonMenu";
 import SocialMediaBar from "./components/SocialMediaBar";
-import Hero from "./components/Hero/Hero";
-
+import AccordeonMenu from "./components/AccordeonMenu";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
@@ -17,7 +16,7 @@ function App() {
       <div className="accordeon w-full md:w-[300px]">
         <AccordeonMenu/>
       </div>
-      <SocialMediaBar/>
+      <Footer/>
     </>
   );
 }
