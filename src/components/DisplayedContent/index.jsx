@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import standupPhoto1 from "../../assets/standupphoto1.jpg";
 
 const DisplayedContent = ({ activeChapter }) => {
@@ -104,8 +105,28 @@ const DisplayedContent = ({ activeChapter }) => {
       img: "my img",
       video: "",
     },
-    4: {
+    5: {
       title: "Chapter 5",
+      subtitle1: "subttle1",
+      paragraph1: "Content for Chapter 1",
+      paragraph1b: "Content for Chapter 1",
+      paragraph1c: "Content for Chapter 1",
+      paragraph1d: "Content for Chapter 1",
+      subtitle2: "subttle2",
+      paragraph2: "Content for Chapter 2",
+      paragraph2b: "Content for Chapter 2",
+      subtitle3: "subttle3",
+      paragraph3: "Content for Chapter 3",
+      paragraph3b: "Content for Chapter 3",
+      paragraph3c: "Content for Chapter 3",
+      subtitle4: "",
+      paragraph4: "",
+      paragraph4b: "",
+      img: "my img",
+      video: "",
+    },
+    6: {
+      title: "Chapter 6",
       subtitle1: "subttle1",
       paragraph1: "Content for Chapter 1",
       paragraph1b: "Content for Chapter 1",
@@ -162,6 +183,22 @@ const DisplayedContent = ({ activeChapter }) => {
       </h3>
       {chapters[activeChapter].paragraph4 !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph4}</p>}
       {chapters[activeChapter].paragraph4b !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph4b}</p>}
+      <div className="flex flex-col justify-center items-center">
+        <hr className="p-5 mt-4 mb-2 min-w-[200px] md:min-w-[500px] max-w-[620px]" />
+      </div>
+      <h3 id="subtitle5" className="text-xl p-3">
+        {chapters[activeChapter].subtitle5}
+      </h3>
+      {chapters[activeChapter].paragraph5 !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph5}</p>}
+      {chapters[activeChapter].paragraph5b !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph5b}</p>}
+      <div className="flex flex-col justify-center items-center">
+        <hr className="p-5 mt-4 mb-2 min-w-[200px] md:min-w-[500px] max-w-[620px]" />
+      </div>
+      <h3 id="subtitle6" className="text-xl p-3">
+        {chapters[activeChapter].subtitle6}
+      </h3>
+      {chapters[activeChapter].paragraph6 !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph6}</p>}
+      {chapters[activeChapter].paragraph5b !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph6b}</p>}
       {chapters[activeChapter].img !== "" ? <img src={chapters[activeChapter].img} alt={chapters[activeChapter].title} className="p-3 max-w-[320px] mx-auto md:max-w-[60%]" /> : null}
     </div>
   );
