@@ -15,7 +15,6 @@ function App() {
       <div className="accordeon w-full md:w-[300px]">
         <AccordeonMenu/>
       </div>
-      <SocialMediaBar/>
       <Footer/>
     </>
   );
