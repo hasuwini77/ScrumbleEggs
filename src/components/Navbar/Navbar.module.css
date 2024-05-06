@@ -1,0 +1,15 @@
+.menuItems {
+  padding: 8px;
+  border-radius: 20px;
+  margin-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  transition: all 0.7s ease-in-out;
+}
+
+.menuItems:active,
+.menuItems:focus {
+  background-color: black;
+  color: white;
+  transform: scale(1.1);
+}
