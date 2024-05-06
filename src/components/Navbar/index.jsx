@@ -10,7 +10,6 @@ import {
   Link,
   Button,
 } from "@nextui-org/react";
-import { AcmeLogo } from "../../assets/AcmeLogo";
 import Logo from "../Logo";
 import ToggleSwitchButton from "../ToggleSwitchButton";
 import styles from "./Navbar.module.css";
