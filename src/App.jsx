@@ -1,6 +1,6 @@
 import ScrumNavBar from "./components/Navbar";
 import ButtonComponent from "./components/Button";
-import SocialMediaBar from "./components/SocialMediaBar";
+import Hero from "./components/Hero";
 import AccordeonMenu from "./components/AccordeonMenu";
 import Footer from "./components/Footer";
 function App() {
@@ -14,9 +14,9 @@ function App() {
         <ButtonComponent text="button2" className="px-5 py-5 ml-3 mt-3" />
       </div>
       <div className="accordeon w-full md:w-[300px]">
-        <AccordeonMenu/>
+        <AccordeonMenu />
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }
