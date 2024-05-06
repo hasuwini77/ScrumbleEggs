@@ -7,14 +7,12 @@ import {
   Link,
   Button,
 } from "@nextui-org/react";
-import Logo from "../Logo";
 import ToggleSwitchButton from "../ToggleSwitchButton";
 
 export default function ScrumNavBar() {
   return (
     <Navbar>
       <NavbarBrand>
-        <Logo />
         <p className="font-bold text-inherit">Scrumble Eggs</p>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
