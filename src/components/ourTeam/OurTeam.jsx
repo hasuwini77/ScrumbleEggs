@@ -1,4 +1,6 @@
-/* import styles from './OurTeam.module.css';
+import styles from './ourTeam.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTwitter, faPinterest, faFacebook, faDribbble } from '@fortawesome/free-brands-svg-icons';
 
 function OurTeam() {
   let message = "Check out our team members who made this Scrum Guide better than ever!"
@@ -19,7 +21,7 @@ function OurTeam() {
                 <div className={styles.teamInfo}><p>Scrum Mastah</p></div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolore quis quod, assumenda exercitationem eveniet, quia iste impedit fugit Laboriosam, voluptatum?</p>
                 <ul className={styles.teamIcon}>
-                  <li><a href="#" className={styles.twitter}><i className="fa fa-twitter"></i></a></li>
+                  <li><a href="#" className={`${styles.twitter}`}><FontAwesomeIcon icon={faTwitter} /></a></li>
                   <li><a href="#" className={styles.pinterest}><i className="fa fa-pinterest"></i></a></li>
                   <li><a href="#" className={styles.facebook}><i className="fa fa-facebook"></i></a></li>
                   <li><a href="#" className={styles.dribble}><i className="fa fa-dribbble"></i></a></li>
@@ -90,10 +92,9 @@ function OurTeam() {
 }
 
 export default OurTeam;
- */
 
 
-import styles from './ourTeam.module.css';
+/* import styles from './ourTeam.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faPinterest, faFacebook, faDribbble } from '@fortawesome/free-brands-svg-icons';
 
@@ -119,7 +120,7 @@ function OurTeam() {
                 </ul>
               </div>
             </div>
-            {/* Other team members */}
+
           </div>
         </div>
       </section>
@@ -127,4 +128,4 @@ function OurTeam() {
   );
 }
 
-export default OurTeam;
+export default OurTeam; */
