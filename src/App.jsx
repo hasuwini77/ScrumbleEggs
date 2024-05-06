@@ -2,6 +2,10 @@ import ScrumNavBar from "./components/Navbar";
 import ButtonComponent from "./components/Button";
 import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
+import HighlightedFeature from "./components/HighlightedFeature";
+import feature1 from "./assets/images/feature-1.webp";
+import feature2 from "./assets/images/feature-2.webp";
+
 function App() {
   return (
     <>
@@ -14,7 +18,12 @@ function App() {
       <div className="main-content flex flex-col md:flex-row">
         <MainContent />
       </div>
-      <Footer/>
+      <HighlightedFeature
+        title="Feature Title"
+        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris."
+        images={[feature1, feature2]}
+      />
+      <Footer />
     </>
   );
 }
