@@ -3,6 +3,8 @@ import ButtonComponent from "./components/Button";
 import Hero from "./components/Hero";
 import AccordeonMenu from "./components/AccordeonMenu";
 import Footer from "./components/Footer";
+import Hero from './components/Hero/Hero'
+
 function App() {
   return (
     <>
