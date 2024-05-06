@@ -1,5 +1,4 @@
 .sectionWhite {
-	background: #fff;
 	padding: 70px 16px;
 }
 
@@ -83,7 +82,7 @@ ul.teamIcon li{
 
 ul.teamIcon li a{
 	margin: 0;
-	
+	display: inline-block;
 	padding: 8px 8px;
 	width: 34px;
 	height: 34px;
@@ -98,16 +97,16 @@ ul.teamIcon li a.twitter{
 	background-color: #4099ff;
 }
 
-ul.teamIcon li a.pinterest{
+ul.teamIcon li a.instagram{
 	background-color: #C92228;
 }
 
-ul.teamIcon li a.facebook{
+ul.teamIcon li a.linkedin{
 	background-color: #3b5998;
 }
 
-ul.teamIcon li a.dribble{
-	background-color: #ea4c89;
+ul.teamIcon li a.facebook{
+	background-color: #7b4cea;
 }
 
 .teamIcon li a:hover{
