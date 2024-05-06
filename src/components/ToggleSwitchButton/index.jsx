@@ -20,7 +20,7 @@ export default function ToggleSwitchButton() {
   };
 
   return (
-    <Switch onClick={toggleTheme} defaultSelected size="lg" color="secondary" thumbIcon={({ isSelected, className }) => (isSelected ? <SunIcon className={className} /> : <MoonIcon className={className} />)}>
+    <Switch onClick={toggleTheme} defaultSelected size="lg" color="secondary" thumbIcon={({ isSelected, className }) => (isSelected ? <MoonIcon className={className} /> : <SunIcon className={className} />)}>
       Dark mode
     </Switch>
   );
