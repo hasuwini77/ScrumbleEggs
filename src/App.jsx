@@ -2,6 +2,8 @@ import ScrumNavBar from "./components/Navbar";
 import ButtonComponent from "./components/Button";
 import OurTeam from './components/OurTeam/OurTeam';
 
+import MainContent from "./components/MainContent";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
@@ -12,6 +14,10 @@ function App() {
         <ButtonComponent text="button2" className="px-5 py-5 ml-3 mt-3" />
       </div>
       <OurTeam />
+      <div className="main-content flex flex-col md:flex-row">
+        <MainContent />
+      </div>
+      <Footer/>
     </>
   );
 }
