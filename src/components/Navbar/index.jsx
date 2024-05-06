@@ -30,6 +30,11 @@ export default function ScrumNavBar() {
               Dive in
             </Link>
           </NavbarItem>
+          <NavbarItem>
+            <Link color="foreground" href="#">
+              Contact Us
+            </Link>
+          </NavbarItem>
         </NavbarContent>
         <NavbarContent justify="end">
           <NavbarItem>
@@ -40,22 +45,22 @@ export default function ScrumNavBar() {
       <NavbarMenu className="sm:hidden flex justify-start items-center">
         <NavbarMenuItem>
           <Link href="#" className={styles.menuItems}>
-            Our Team
-          </Link>
-        </NavbarMenuItem>
-        <NavbarMenuItem>
-          <Link href="#" className={styles.menuItems}>
             Learn Scrum
           </Link>
         </NavbarMenuItem>
         <NavbarMenuItem>
           <Link href="#" className={styles.menuItems}>
-            Contact Us
+            Our Team
           </Link>
         </NavbarMenuItem>
         <NavbarMenuItem>
           <Link href="#" className={styles.menuItems}>
             Dive In
+          </Link>
+        </NavbarMenuItem>
+        <NavbarMenuItem>
+          <Link href="#" className={styles.menuItems}>
+            Contact Us
           </Link>
         </NavbarMenuItem>
       </NavbarMenu>
