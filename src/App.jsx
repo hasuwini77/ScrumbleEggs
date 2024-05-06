@@ -13,10 +13,10 @@ function App() {
         <ButtonComponent text="button1" className="px-5 py-5 ml-3 mt-3" />
         <ButtonComponent text="button2" className="px-5 py-5 ml-3 mt-3" />
       </div>
-      <OurTeam />
       <div className="main-content flex flex-col md:flex-row">
         <MainContent />
       </div>
+      <OurTeam />
       <Footer/>
     </>
   );

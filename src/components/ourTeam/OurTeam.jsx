@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faInstagram, faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function OurTeam() {
-  let message = "Check out our team members who made this Scrum Guide better than ever!"
+  let message = "Check out our team members who made this Scrum Guide!"
 
   return (
     <>
@@ -19,7 +19,7 @@ function OurTeam() {
                 <img src="https://demo.epic-webdesign.com/tf-pacifico/v1/images/team1a.jpg" className={styles.teamImg} alt="pic" />
                 <h3>David Boll</h3>
                 <div className={styles.teamInfo}><p>Scrum Mastah</p></div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolore quis quod, assumenda exercitationem eveniet, quia iste impedit fugit Laboriosam, voluptatum?</p>
+                <p className={styles.teamInfoText}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolore quis quod, assumenda exercitationem eveniet, quia iste impedit fugit Laboriosam, voluptatum?</p>
                 <ul className={styles.teamIcon}>
                   <li><a href="#" className={styles.twitter}><FontAwesomeIcon icon={faTwitter} /></a></li>
                   <li><a href="#" className={styles.instagram}><FontAwesomeIcon icon={faInstagram} /></a></li>
