@@ -1,13 +1,8 @@
 import ScrumNavBar from "./components/Navbar";
 import ButtonComponent from "./components/Button";
-import SocialMediaBar from "./components/SocialMediaBar";
-<<<<<<< HEAD
-import AccordeonMenu from "./components/AccordeonMenu";
-import Footer from "./components/Footer";
-=======
 import MainContent from "./components/MainContent";
+import Footer from "./components/Footer";
 
->>>>>>> feature/KAN-57-Main-Content-v1
 function App() {
   return (
     <>
@@ -20,12 +15,7 @@ function App() {
       <div className="main-content flex flex-col md:flex-row">
         <MainContent />
       </div>
-<<<<<<< HEAD
-      <SocialMediaBar/>
-      <Footer/>
-=======
-      <SocialMediaBar />
->>>>>>> feature/KAN-57-Main-Content-v1
+      <Footer />
     </>
   );
 }
