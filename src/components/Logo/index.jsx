@@ -3,8 +3,8 @@ import logo from "../../assets/logo.png";
 
 const Logo = () => {
   return (
-    <div>
-      <img src={logo} alt="ScrumbleEggs Logo" />
+    <div className="flex justify-center items-center">
+      <img src={logo} alt="ScrumbleEggs Logo" className="w-7 mr-3" />
     </div>
   );
 };
