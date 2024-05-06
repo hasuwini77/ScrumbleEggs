@@ -5,9 +5,9 @@
 
 .teamItem{
 	background: #f4f5f6;
-	text-align:center;
-	margin:20px 0;
-	padding:50px 20px 40px 20px;
+	text-align: center;
+	margin: 20px 0;
+	padding: 50px 20px 40px 20px;
 	border-radius: 8px 8px;
 	transition: all 1s ease-in-out;
 }
@@ -18,11 +18,11 @@
 }
 
 .teamItem h3{
-	margin:20px 0 1px 0!important;
+	margin: 20px 0 1px 0!important;
 	color:#454545;
-	font-size:18px;
+	font-size: 18px;
 	font-weight: 700;
-	text-transform:uppercase;
+	text-transform: uppercase;
 	transition: all .25s ease-in-out;
 	-webkit-transition: all 1s ease-in-out;
 }
@@ -37,12 +37,12 @@
 
 .teamInfo {
 	display: block;
-	margin-bottom:0;
+	margin-bottom: 0;
 }
 
 .teamInfo p{
 	color:#acacac;
-	font-style:italic;
+	font-style: italic;
 }
 
 .teamInfo::after {
@@ -83,7 +83,7 @@ ul.teamIcon li{
 
 ul.teamIcon li a{
 	margin: 0;
-	display: inline-block;
+	
 	padding: 8px 8px;
 	width: 34px;
 	height: 34px;
