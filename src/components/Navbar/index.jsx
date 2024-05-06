@@ -5,14 +5,15 @@ import {
   NavbarContent,
   NavbarItem,
   Link,
-  Button,
 } from "@nextui-org/react";
+import { AcmeLogo } from "../../assets/AcmeLogo";
 import ToggleSwitchButton from "../ToggleSwitchButton";
 
 export default function ScrumNavBar() {
   return (
     <Navbar>
       <NavbarBrand>
+        <AcmeLogo />
         <p className="font-bold text-inherit">Scrumble Eggs</p>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
