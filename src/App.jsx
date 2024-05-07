@@ -1,7 +1,8 @@
 import ScrumNavBar from "./components/Navbar";
 import ButtonComponent from "./components/Button";
 import MainContent from "./components/MainContent";
-import Footer from "./components/Footer";import Hero from "./components/Hero/Hero";
+import Footer from "./components/Footer";
+import Hero from "./components/Hero/Hero";
 
 function App() {
   return (
