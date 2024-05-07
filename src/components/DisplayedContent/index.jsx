@@ -3,24 +3,34 @@ import standupPhoto1 from "../../assets/standupphoto1.jpg";
 const DisplayedContent = ({ activeChapter }) => {
   const chapters = {
     1: {
-      title: "Chapter 1",
-      subtitle1: "subttle1",
-      paragraph1: "Content for Chapter 1",
-      paragraph1b: "Content for Chapter 1",
-      paragraph1c: "Content for Chapter 1",
+      title: "Definition of Agile",
+      subtitle1: "",
+      paragraph1: "The Agile 'Software Development' Manifesto emerged from a meeting held on February 11-13, 2001, at The Lodge at Snowbird ski resort in Utah. ",
+      paragraph1b: "It represents a collaborative effort among various software development methodologies, including Extreme Programming, SCRUM, DSDM, Adaptive Software Development, Crystal, Feature-Driven Development, and Pragmatic Programming. ",
+      paragraph1c: 'The term "agile" was chosen, although some participants had concerns about its pronunciation.The Agile Alliance, formed by independent thinkers in software development, adopted the Manifesto as a guiding principle. ',
       paragraph1d: "",
-      subtitle2: "subttle2",
-      paragraph2: "Content for Chapter 2",
-      paragraph2b: "Content for Chapter 2",
-      subtitle3: "subttle3",
-      paragraph3: "Content for Chapter 3",
-      paragraph3b: "Content for Chapter 3",
-      paragraph3c: "Content for Chapter 3",
+      subtitle2: "History and Origins",
+      paragraph2: 'The meeting at Snowbird ski resort was preceded by a gathering organized by Kent Beck at the Rogue River Lodge in Oregon in the spring of 2000, which primarily focused on Extreme Programming proponents and a few outsiders. Discussions about "Light" or "Lightweight" methodologies took place throughout 2000, with proponents like Bob Martin advocating for a conference to bring together leaders in the field.',
+      paragraph2b: 'Alistair Cockburn expressed dissatisfaction with the term "Light" due to its connotations. Eventually, a meeting was arranged in January to February 2001 in Chicago, leading to debates over the location, with Snowbird, Utah, being chosen. The Agile Alliance aims to promote innovative thinking in software development methodologies and organizations, encouraging agility in approach and mindset',
+      subtitle3: "Key Principle",
+      paragraph3: "The highest priority is to satisfy the customer through early and continuous delivery of valuable software. ",
+      paragraph3b: "Embrace changing requirements for the customers advantage and deliver working software frequently",
+      paragraph3c: "Cultivate collaboration between business people and developers, and prioritize face-to-face communication for efficient information exchange",
       subtitle4: "",
       paragraph4: "",
       paragraph4b: "",
       img: "my img",
-      video: "",
+      video: `<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+      <iframe
+        style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 75%; height: 75%;"
+        src="https://www.youtube.com/embed/tQprHSpNdps?si=XzMH78g0rUJNo8mF" 
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </div>`,
     },
     2: {
       title: "Chapter 2",
