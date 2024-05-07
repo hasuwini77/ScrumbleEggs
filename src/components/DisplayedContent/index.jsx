@@ -23,22 +23,32 @@ const DisplayedContent = ({ activeChapter }) => {
       video: "",
     },
     2: {
-      title: "Chapter 2",
-      subtitle1: "subttle1",
-      paragraph1: "Content for Chapter 1",
-      paragraph1b: "Content for Chapter 1",
-      paragraph1c: "Content for Chapter 1",
-      paragraph1d: "Content for Chapter 1",
-      subtitle2: "subttle2",
-      paragraph2: "Content for Chapter 2",
-      paragraph2b: "Content for Chapter 2",
-      subtitle3: "subttle3",
-      paragraph3: "Content for Chapter 3",
-      paragraph3b: "Content for Chapter 3",
+      title: "Scrum Basics",
+      subtitle1: "Overview of Scrum",
+      paragraph1: 
+        "If you are just getting started, think of Scrum as a way to get work done as a team in small pieces at a time, with continuous experimentation and feedback loops along the way to learn and improve as you go.",
+      paragraph1b: 
+        "As an agile framework, Scrum provides just enough structure for people and teams to integrate into how they work, while adding the right practices to optimize for their specific needs. ",
+      paragraph1c: 
+        "Simply explained, Scrum helps people and teams deliver value incrementally in a collaborative way.",
+      
+      subtitle2: "What are the Scrum roles?",
+      paragraph2: 
+        "The Scrum framework is being made up of a Scrum Team consisting of a Product Owner, a Scrum Master and Developers, each of which have specific accountabilities. They work together towards a common objective, the Product Goal, and are responsible for all product-related activities.",
+      paragraph2b: "",
+
+      subtitle3: "Product Owner",
+      paragraph3: 
+        "The Product Owner maximizes the value of the product by managing the product backlog and making decisions that benefit stakeholders. They prioritize, communicate, and ensure transparency of the product backlog.",
+      paragraph3b: "",
       paragraph3c: "",
-      subtitle4: "",
-      paragraph4: "",
+
+      subtitle4: "Scrum Master",
+      paragraph4: 
+        "Scrum masters act as coaches to the rest of the team. They are accountable for the Scrum Team’s effectiveness and ensures the scrum framework is followed. They coach teams, Product Owners, and the business to improve its Scrum processes and optimize delivery.",
       paragraph4b: "",
+      
+      subtitle5: "Development Team",
       img: "my img",
       video: "",
     },
