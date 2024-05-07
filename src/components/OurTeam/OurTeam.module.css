@@ -4,7 +4,7 @@
 
 .teamItem{
 	/* background: #2c2c2c; for darkmode */
-	background: #f4f5f6;
+	background: #a1a2a3;
 	text-align: center;
 	margin: 20px 0;
 	padding: 50px 20px 40px 20px;
@@ -19,7 +19,7 @@
 
 .teamItem h3{
 	margin: 20px 0 1px 0!important;
-	color:#454545;
+	color: #454545;
 	font-size: 18px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -41,7 +41,7 @@
 }
 
 .teamInfo p{
-	color:#acacac;
+	color: #535353;
 	font-style: italic;
 }
 

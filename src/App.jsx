@@ -1,9 +1,9 @@
 import ScrumNavBar from "./components/Navbar";
 import ButtonComponent from "./components/Button";
 import OurTeam from './components/OurTeam/OurTeam';
-
 import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
+
 function App() {
   return (
     <>
