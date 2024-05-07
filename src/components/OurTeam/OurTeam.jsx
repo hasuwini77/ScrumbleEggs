@@ -2,7 +2,7 @@ import styles from './OurTeam.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faInstagram, faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
-function OurTeam({isDarkMode}) {
+function OurTeam() {
   let message = "Check out our team members who made this Scrum Guide!"
 
   return (
