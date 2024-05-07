@@ -1,11 +1,13 @@
 import ScrumNavBar from "./components/Navbar";
 import ButtonComponent from "./components/Button";
 import MainContent from "./components/MainContent";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer";import Hero from "./components/Hero/Hero";
+
 function App() {
   return (
     <>
       <ScrumNavBar />
+      <Hero />
       <h1 className="text-3xl text-center font-bold underline">Hello world!</h1>
       <div className="flex flex-row justify-center">
         <ButtonComponent text="button1" className="px-5 py-5 ml-3 mt-3" />
