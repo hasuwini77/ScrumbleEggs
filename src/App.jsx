@@ -7,8 +7,6 @@ import HighlightedFeature from "./components/HighlightedFeature";
 import feature1 from "./assets/images/feature-1.webp";
 import feature2 from "./assets/images/feature-2.webp";
 import OurTeam from './components/OurTeam/OurTeam';
-import MainContent from "./components/MainContent";
-import Footer from "./components/Footer";
 
 function App() {
   return (
