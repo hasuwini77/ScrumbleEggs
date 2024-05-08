@@ -136,7 +136,17 @@ const DisplayedContent = ({ activeChapter }) => {
       paragraph4c:
         "Courses and certifications like Certified ScrumMaster (CSM) and Professional Scrum Master (PSM) provide structured learning and validate expertise in Scrum practices.",
       img: implentingScrum,
-      video: "",
+      video: `<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe
+    style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 75%; height: 75%;"
+    src="https://www.youtube.com/embed/iv3FGFEzprs?si=Ag6DrwdgkgcnDNpS"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>`,
     },
     5: {
       title: "Tools and resources",
