@@ -21,7 +21,8 @@ const MainContent = () => {
 
   return (
     <>
-      <div className="accordeon w-full md:w-[300px] px-5 mr-5">
+    <div className="accordion-wrapper">
+    <div className="sticky top-11 accordeon w-full md:w-[300px] px-5 mr-5">
         <Accordion defaultExpandedKeys={[`${activeChapter}`]} selectionMode="single">
           <AccordionItem key="1" aria-label="Accordion 1" title="What is Agile?" onClick={() => handleClick(1)}>
             <ul>
@@ -134,9 +135,11 @@ const MainContent = () => {
           </AccordionItem>
         </Accordion>
       </div>
+    </div>
       <div className="accordeon w-full md:min-w-[700px]">
         <DisplayedContent activeChapter={activeChapter} />
       </div>
+      
     </>
   );
 };
