@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 
 const HighlightedFeature = ({ title, text, images }) => {
   return (
@@ -25,10 +24,6 @@ const HighlightedFeature = ({ title, text, images }) => {
   );
 };
 
-HighlightedFeature.propTypes = {
-  title: PropTypes.string.isRequired,
-  text: PropTypes.string.isRequired,
-  images: PropTypes.arrayOf(PropTypes.string).isRequired,
-};
+
 
 export default HighlightedFeature;
