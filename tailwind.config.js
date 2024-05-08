@@ -23,12 +23,6 @@ module.exports = {
         lg: "1200px",
         xl: "1700px",
       },
-      linearGradientColors: (theme) => ({
-        "dark-purple": [
-          theme("colors.dark-purple.DEFAULT"),
-          theme("colors.dark-purple.primary.900"),
-        ],
-      }),
     },
   },
   darkMode: "class",
