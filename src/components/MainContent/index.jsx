@@ -108,17 +108,22 @@ const MainContent = () => {
             <ul>
               <li className="cursor-pointer p-3 hover:bg-slate-700 hover:text-white rounded-lg">
                 <a onClick={() => handleAnchorClick("subtitle1")} className={styles.anchor}>
-                  Digital Tools
+                  Overview
                 </a>
               </li>
               <li className="cursor-pointer p-3 hover:bg-slate-700 hover:text-white rounded-lg">
                 <a onClick={() => handleAnchorClick("subtitle2")} className={styles.anchor}>
-                  Books and Articles
+                  Key Tools
                 </a>
               </li>
               <li className="cursor-pointer p-3 hover:bg-slate-700 hover:text-white rounded-lg">
                 <a onClick={() => handleAnchorClick("subtitle3")} className={styles.anchor}>
-                  Courses and Certifications
+                  Advantages of Using Digital Tools
+                </a>
+              </li>
+              <li className="cursor-pointer p-3 hover:bg-slate-700 hover:text-white rounded-lg">
+                <a onClick={() => handleAnchorClick("subtitle4")} className={styles.anchor}>
+                  Choosing the Right Tool
                 </a>
               </li>
             </ul>
