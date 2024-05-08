@@ -3,10 +3,10 @@ import ButtonComponent from "./components/Button";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import MainContent from "./components/MainContent";
+import OurTeam from "./components/OurTeam/OurTeam";
 import HighlightedFeature from "./components/HighlightedFeature";
-import feature1 from "./assets/images/feature-1.webp";
-import feature2 from "./assets/images/feature-2.webp";
-import OurTeam from './components/OurTeam/OurTeam';
+import feature1 from "./assets/images/feature1.png";
+import feature2 from "./assets/images/feature2.png";
 
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
       />
       <Footer />
       <OurTeam />
-      <Footer/>
+      <Footer />
     </>
   );
 }
