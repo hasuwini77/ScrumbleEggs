@@ -27,12 +27,12 @@ const MainContent = () => {
             <ul>
               <li className="cursor-pointer p-3 hover:bg-slate-700 hover:text-white rounded-lg">
                 <a onClick={() => handleAnchorClick("subtitle1")} className={styles.anchor}>
-                  History and Origins
+                 Definition of Agile
                 </a>
               </li>
               <li className="cursor-pointer p-3 hover:bg-slate-700 hover:text-white rounded-lg">
                 <a onClick={() => handleAnchorClick("subtitle2")} className={styles.anchor}>
-                  Definition of Agile
+                   History and Origins
                 </a>
               </li>
               <li className="cursor-pointer p-3 hover:bg-slate-700 hover:text-white rounded-lg">
