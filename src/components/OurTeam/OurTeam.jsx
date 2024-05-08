@@ -1,6 +1,5 @@
 import styles from './OurTeam.module.css';
 import OurTeamCard from '../OurTeamCard/index'
-import { useState } from 'react';
 
 function OurTeam() {
   let message = "Check out our team members who made this Scrum Guide!"
@@ -14,11 +13,11 @@ function OurTeam() {
             <p className={styles.sectionSubtitle}>{message}</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
-          <OurTeamCard name="David Boll" />
-          <OurTeamCard name="Erika Lundström" />
-          <OurTeamCard name="Edwin Andermyr" />
-          <OurTeamCard name="Noah Gordon" />
-          <OurTeamCard name="Martin Ahlsén" />
+          <OurTeamCard name="David Boll" role="Scrum Master" />
+          <OurTeamCard name="Erika Lundström" role="Developer" />
+          <OurTeamCard name="Edwin Andermyr" role="Developer"/>
+          <OurTeamCard name="Noah Gordon" role="Devloper" />
+          <OurTeamCard name="Martin Ahlsén" role="Developer" />
 {/*             <div className="col-span-1   ">
               <div className={styles.teamItem}>
                 <img src="https://demo.epic-webdesign.com/tf-pacifico/v1/images/team2a.jpg" className={styles.teamImg} alt="pic" />
