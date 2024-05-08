@@ -26,7 +26,6 @@ function App() {
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris."
         images={[feature1, feature2]}
       />
-      <Footer />
       <OurTeam />
       <Footer />
     </>
