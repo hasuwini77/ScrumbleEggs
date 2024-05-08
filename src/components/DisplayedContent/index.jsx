@@ -182,9 +182,6 @@ const DisplayedContent = ({ activeChapter }) => {
       </h3>
       {chapters[activeChapter].paragraph4 !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph4}</p>}
       {chapters[activeChapter].paragraph4b !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph4b}</p>}
-      <div className="flex flex-col justify-center items-center">
-        <hr className="p-5 pt-3 mt-4 mb-2 min-w-[200px] md:min-w-[500px] max-w-[620px]" />
-      </div>
       {chapters[activeChapter].img !== "" ? <img src={chapters[activeChapter].img} alt={chapters[activeChapter].title} className="p-3 max-w-[320px] mx-auto md:max-w-[60%]" /> : null}
     </div>
   );
