@@ -95,7 +95,7 @@ const MainContent = () => {
               </li>
               <li className="cursor-pointer p-3 hover:bg-slate-700 hover:text-white rounded-lg">
                 <a onClick={() => handleAnchorClick("subtitle2")} className={styles.anchor}>
-                  Common Challenges & Solutions
+                  Challenges & Solutions
                 </a>
               </li>
               <li className="cursor-pointer p-3 hover:bg-slate-700 hover:text-white rounded-lg">
@@ -119,7 +119,7 @@ const MainContent = () => {
               </li>
               <li className="cursor-pointer p-3 hover:bg-slate-700 hover:text-white rounded-lg">
                 <a onClick={() => handleAnchorClick("subtitle3")} className={styles.anchor}>
-                  Advantages of Using Digital Tools
+                  Advantages of Digital Tools
                 </a>
               </li>
               <li className="cursor-pointer p-3 hover:bg-slate-700 hover:text-white rounded-lg">
