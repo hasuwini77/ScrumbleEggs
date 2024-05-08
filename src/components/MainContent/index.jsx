@@ -22,7 +22,7 @@ const MainContent = () => {
   return (
     <div className="flex flex-col md:flex-row">
       {/* Sidebar -> Accordion */}
-      <div className="w-full md:w-[300px] px-5 mr-5">
+      <div className="w-full md:w-[300px] md:sticky md:top-11 px-5 mr-5">
         <Accordion defaultExpandedKeys={[`${activeChapter}`]} selectionMode="single">
           <AccordionItem key="1" aria-label="Accordion 1" title="What is Agile?" onClick={() => handleClick(1)}>
             <ul>
@@ -137,7 +137,7 @@ const MainContent = () => {
       </div>
 
       {/* Displayed Content */}
-      <div className="flex-grow">
+      <div className="flex-grow flex justify-start">
         <DisplayedContent activeChapter={activeChapter} />
       </div>
     </div>
