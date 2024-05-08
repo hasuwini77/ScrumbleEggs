@@ -1,28 +1,15 @@
 import React, { useState } from "react";
-import {
-  Navbar,
-  NavbarBrand,
-  NavbarContent,
-  NavbarItem,
-  NavbarMenuToggle,
-  NavbarMenu,
-  NavbarMenuItem,
-  Link,
-  Button,
-} from "@nextui-org/react";
+import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Link, Button } from "@nextui-org/react";
 import Logo from "../Logo";
 import ToggleSwitchButton from "../ToggleSwitchButton";
 import styles from "./Navbar.module.css";
 
-export default function ScrumNavBar() {
+export default function ScrumNavBar({ isDarkMode, toggleTheme }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <Navbar isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen}>
       <NavbarContent>
-        <NavbarMenuToggle
-          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="sm:hidden"
-        />
+        <NavbarMenuToggle aria-label={isMenuOpen ? "Close menu" : "Open menu"} className="sm:hidden" />
         <NavbarBrand>
           <Logo />
           <p className="font-bold text-inherit">Scrumble Eggs</p>
@@ -51,7 +38,7 @@ export default function ScrumNavBar() {
         </NavbarContent>
         <NavbarContent justify="end">
           <NavbarItem>
-            <ToggleSwitchButton />
+            <ToggleSwitchButton isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
           </NavbarItem>
         </NavbarContent>
       </NavbarContent>
