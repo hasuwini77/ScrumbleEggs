@@ -1,4 +1,5 @@
 import standupPhoto1 from "../../assets/standupphoto1.jpg";
+import scrumFramework from "../../assets/scrum-framework.png"
 
 const DisplayedContent = ({ activeChapter }) => {
   const chapters = {
@@ -24,7 +25,7 @@ const DisplayedContent = ({ activeChapter }) => {
     },
     2: {
       title: "Scrum Basics",
-      subtitle1: "Overview of Scrum",
+      subtitle1: "What is Scrum?",
       paragraph1: 
         "If you are just getting started, think of Scrum as a way to get work done as a team in small pieces at a time, with continuous experimentation and feedback loops along the way to learn and improve as you go.",
       paragraph1b: 
@@ -50,7 +51,7 @@ const DisplayedContent = ({ activeChapter }) => {
       paragraph4b: "",
       
       subtitle5: "Development Team",
-      img: "my img",
+      img: scrumFramework,
       video: "",
     },
     3: {
