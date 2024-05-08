@@ -1,21 +1,30 @@
 import standupPhoto1 from "../../assets/standupphoto1.jpg";
+import implentingScrum from "../../assets/images/implementing-scrum.jpeg";
 
 const DisplayedContent = ({ activeChapter }) => {
   const chapters = {
     1: {
       title: "Definition of Agile",
       subtitle1: "",
-      paragraph1: "The Agile 'Software Development' Manifesto emerged from a meeting held on February 11-13, 2001, at The Lodge at Snowbird ski resort in Utah. ",
-      paragraph1b: "It represents a collaborative effort among various software development methodologies, including Extreme Programming, SCRUM, DSDM, Adaptive Software Development, Crystal, Feature-Driven Development, and Pragmatic Programming. ",
-      paragraph1c: 'The term "agile" was chosen, although some participants had concerns about its pronunciation.The Agile Alliance, formed by independent thinkers in software development, adopted the Manifesto as a guiding principle. ',
+      paragraph1:
+        "The Agile 'Software Development' Manifesto emerged from a meeting held on February 11-13, 2001, at The Lodge at Snowbird ski resort in Utah. ",
+      paragraph1b:
+        "It represents a collaborative effort among various software development methodologies, including Extreme Programming, SCRUM, DSDM, Adaptive Software Development, Crystal, Feature-Driven Development, and Pragmatic Programming. ",
+      paragraph1c:
+        'The term "agile" was chosen, although some participants had concerns about its pronunciation.The Agile Alliance, formed by independent thinkers in software development, adopted the Manifesto as a guiding principle. ',
       paragraph1d: "",
       subtitle2: "History and Origins",
-      paragraph2: 'The meeting at Snowbird ski resort was preceded by a gathering organized by Kent Beck at the Rogue River Lodge in Oregon in the spring of 2000, which primarily focused on Extreme Programming proponents and a few outsiders. Discussions about "Light" or "Lightweight" methodologies took place throughout 2000, with proponents like Bob Martin advocating for a conference to bring together leaders in the field.',
-      paragraph2b: 'Alistair Cockburn expressed dissatisfaction with the term "Light" due to its connotations. Eventually, a meeting was arranged in January to February 2001 in Chicago, leading to debates over the location, with Snowbird, Utah, being chosen. The Agile Alliance aims to promote innovative thinking in software development methodologies and organizations, encouraging agility in approach and mindset',
+      paragraph2:
+        'The meeting at Snowbird ski resort was preceded by a gathering organized by Kent Beck at the Rogue River Lodge in Oregon in the spring of 2000, which primarily focused on Extreme Programming proponents and a few outsiders. Discussions about "Light" or "Lightweight" methodologies took place throughout 2000, with proponents like Bob Martin advocating for a conference to bring together leaders in the field.',
+      paragraph2b:
+        'Alistair Cockburn expressed dissatisfaction with the term "Light" due to its connotations. Eventually, a meeting was arranged in January to February 2001 in Chicago, leading to debates over the location, with Snowbird, Utah, being chosen. The Agile Alliance aims to promote innovative thinking in software development methodologies and organizations, encouraging agility in approach and mindset',
       subtitle3: "Key Principle",
-      paragraph3: "The highest priority is to satisfy the customer through early and continuous delivery of valuable software. ",
-      paragraph3b: "Embrace changing requirements for the customers advantage and deliver working software frequently",
-      paragraph3c: "Cultivate collaboration between business people and developers, and prioritize face-to-face communication for efficient information exchange",
+      paragraph3:
+        "The highest priority is to satisfy the customer through early and continuous delivery of valuable software. ",
+      paragraph3b:
+        "Embrace changing requirements for the customers advantage and deliver working software frequently",
+      paragraph3c:
+        "Cultivate collaboration between business people and developers, and prioritize face-to-face communication for efficient information exchange",
       subtitle4: "",
       paragraph4: "",
       paragraph4b: "",
@@ -95,29 +104,45 @@ const DisplayedContent = ({ activeChapter }) => {
 </div>`,
     },
     4: {
-      title: "Chapter 4",
-      subtitle1: "subttle1",
-      paragraph1: "Content for Chapter 1",
-      paragraph1b: "Content for Chapter 1",
-      paragraph1c: "Content for Chapter 1",
-      paragraph1d: "Content for Chapter 1",
-      subtitle2: "subttle2",
-      paragraph2: "Content for Chapter 2",
-      paragraph2b: "Content for Chapter 2",
-      subtitle3: "subttle3",
-      paragraph3: "Content for Chapter 3",
-      paragraph3b: "Content for Chapter 3",
-      paragraph3c: "Content for Chapter 3",
-      subtitle4: "",
-      paragraph4: "",
-      paragraph4b: "",
-      img: "my img",
+      title: "Implementing Scrum",
+      subtitle1: "Getting Started",
+      paragraph1:
+        "Scrum is a lightweight project management approach designed to help teams deliver value to customers quickly and frequently. The three primary artifacts are the Product Backlog, Scrum Board, and Increment.",
+      paragraph1b:
+        "The Product Backlog lists all potential work, while the Sprint Backlog lists items to be completed during the next Sprint. A Scrum Board tracks work progress.",
+      paragraph1c:
+        "Scrum teams consist of Developers, a Product Owner, and a Scrum Master. The team is cross-functional, self-managed, and organizes its work in Sprints.",
+      paragraph1d:
+        "Key events in Scrum include Sprint Planning, Daily Scrum, Sprint Review, and Sprint Retrospective.",
+      subtitle2: "Common Challenges and Solutions",
+      paragraph2:
+        "Maintaining time-boxing can be difficult if teams lack focus. Solution: Keep meeting agendas clear and emphasize strict time-boxing.",
+      paragraph2b:
+        "Lack of buy-in from senior management can impede adoption. Solution: Address management challenges using Scrum methodologies.",
+      paragraph2c:
+        "Skipping meetings leads to transparency issues. Solution: Ensure all meetings are on track and adhere to their allotted time.",
+      subtitle3: "Case Studies and Examples",
+      paragraph3:
+        "Mayden's Transformation from Waterfall to Scrum: A UK company improved project delivery and customer satisfaction by adopting Scrum through Agile training and strong management support.",
+      paragraph3b:
+        "Capstone Team's Adoption of Scrum: A team overcame project management challenges by embracing the Scrum framework, incorporating asynchronous daily meetings, and tracking their velocity.",
+      paragraph3c:
+        "Radware's Scrum Implementation: The global leader in cybersecurity increased visibility and alignment by conducting workshops, engaging globally, and adopting Agile Release Trains.",
+      subtitle4: "Tools and Resources",
+      paragraph4:
+        "Digital tools like Jira, Trello, and Notion help teams manage sprints, track progress, and improve collaboration.",
+      paragraph4b:
+        'Books such as "Scrum: The Art of Doing Twice the Work in Half the Time" and "Agile Project Management with Scrum" offer foundational knowledge.',
+      paragraph4c:
+        "Courses and certifications like Certified ScrumMaster (CSM) and Professional Scrum Master (PSM) provide structured learning and validate expertise in Scrum practices.",
+      img: implentingScrum,
       video: "",
     },
     5: {
       title: "Tools and resources",
       subtitle1: "Digital Tools for Scrum Overview",
-      paragraph1: "In the dynamic world of Agile project management, digital tools play a pivotal role in facilitating the Scrum framework, helping teams to organize, plan, and execute projects effciently. These tools are designed to cater to the specific needs of Scrum teams, providing functionality that supports all aspects of the Agile methodology—from sprint planning to retrospective analysis.",
+      paragraph1:
+        "In the dynamic world of Agile project management, digital tools play a pivotal role in facilitating the Scrum framework, helping teams to organize, plan, and execute projects effciently. These tools are designed to cater to the specific needs of Scrum teams, providing functionality that supports all aspects of the Agile methodology—from sprint planning to retrospective analysis.",
       paragraph1b: "",
       paragraph1c: "",
       paragraph1d: "",
@@ -128,11 +153,13 @@ const DisplayedContent = ({ activeChapter }) => {
       ul2b: "Trello: Trello utilizes a more visual approach with its card-based system that is intuitive and easy to use, making it popular among teams that prefer a straightforward and visually oriented task management tool. Each card represents a task, and these can be moved across different columns (or lists) that represent various stages of the project lifecycle. Trello is highly adaptable and can be used for everything from simple task management to comprehensive Scrum projects, with the ability to add deadlines, attachments, custom labels, and even automation through Butler to streamline project workflows.",
       ul2c: "Notion: As a versatile tool that combines note-taking, task management, databases, and calendars into a single integrated workspace, Notion stands out for its flexibility. It allows teams to create customized workspaces that can evolve from simple lists to complex databases, adapting to the project's needs. Notion is ideal for teams that need a flexible and expansive tool to document their development process, manage sprints, and retain project artifacts in a structured yet adaptable format.",
       subtitle3: "Advantages of Using Digital Tools",
-      paragraph3: "Digital tools help in fostering collaboration and transparency within Scrum teams. They allow team members, regardless of their physical location, to stay updated with real-time progress and changes. This is crucial for maintaining the pace of development and ensuring that all team members are aligned with the project goals and timelines. Furthermore, these tools provide analytical insights that are essential for continuous improvement—a core principle of Agile methodologies.",
+      paragraph3:
+        "Digital tools help in fostering collaboration and transparency within Scrum teams. They allow team members, regardless of their physical location, to stay updated with real-time progress and changes. This is crucial for maintaining the pace of development and ensuring that all team members are aligned with the project goals and timelines. Furthermore, these tools provide analytical insights that are essential for continuous improvement—a core principle of Agile methodologies.",
       paragraph3b: "",
       paragraph3c: "",
       subtitle4: "Choosing the Right Tool",
-      paragraph4: "Selecting the right tool depends on the team's specific needs, the complexity of the project, and the working environment. For instance, Jira might be the preferred choice for software development teams that require detailed tracking and reporting capabilities, while Trello could be more suited for smaller teams or projects that need a quick setup with less complexity. Notion is best for teams that prioritize flexibility and the integration of various types of content and data tracking in their project management practices.",
+      paragraph4:
+        "Selecting the right tool depends on the team's specific needs, the complexity of the project, and the working environment. For instance, Jira might be the preferred choice for software development teams that require detailed tracking and reporting capabilities, while Trello could be more suited for smaller teams or projects that need a quick setup with less complexity. Notion is best for teams that prioritize flexibility and the integration of various types of content and data tracking in their project management practices.",
       paragraph4b: "",
       img: "",
       video: "",
@@ -162,46 +189,108 @@ const DisplayedContent = ({ activeChapter }) => {
   return (
     <div>
       <h2 className="text-2xl p-3">{chapters[activeChapter].title}</h2>
-      {chapters[activeChapter].video !== "" ? <div className="video" dangerouslySetInnerHTML={{ __html: chapters[activeChapter].video }} /> : null}
+      {chapters[activeChapter].video !== "" ? (
+        <div
+          className="video"
+          dangerouslySetInnerHTML={{ __html: chapters[activeChapter].video }}
+        />
+      ) : null}
       <h3 id="subtitle1" className="text-xl p-3">
         {chapters[activeChapter].subtitle1}
       </h3>
-      {chapters[activeChapter].paragraph1 !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph1}</p>}
-      {chapters[activeChapter].paragraph1b !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph1b}</p>}
-      {chapters[activeChapter].paragraph1c !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph1c}</p>}
-      {chapters[activeChapter].paragraph1d !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph1d}</p>}
+      {chapters[activeChapter].paragraph1 !== "" && (
+        <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">
+          {chapters[activeChapter].paragraph1}
+        </p>
+      )}
+      {chapters[activeChapter].paragraph1b !== "" && (
+        <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">
+          {chapters[activeChapter].paragraph1b}
+        </p>
+      )}
+      {chapters[activeChapter].paragraph1c !== "" && (
+        <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">
+          {chapters[activeChapter].paragraph1c}
+        </p>
+      )}
+      {chapters[activeChapter].paragraph1d !== "" && (
+        <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">
+          {chapters[activeChapter].paragraph1d}
+        </p>
+      )}
       <div className="flex flex-col justify-center items-center">
         <hr className="p-5 pt-3 mt-4 mb-2 min-w-[200px] md:min-w-[500px] max-w-[620px]" />
       </div>
       <h3 id="subtitle2" className="text-xl p-3">
         {chapters[activeChapter].subtitle2}
       </h3>
-      {chapters[activeChapter].paragraph2 !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph2}</p>}
-      {chapters[activeChapter].paragraph2b !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph2b}</p>}
-      {chapters[activeChapter].ul2 !== "" && <ul className="ml-10 p-3 max-w-[300px]leading-relaxed md:max-w-[900px] "><li className="md:p-3 list-disc">{chapters[activeChapter].ul2}</li></ul>}
-      {chapters[activeChapter].ul2b !== "" && <ul className="ml-10 p-3 max-w-[300px]leading-relaxed md:max-w-[900px] "><li className="md:p-3 list-disc">{chapters[activeChapter].ul2b}</li></ul>}
-      {chapters[activeChapter].ul2c !== "" && <ul className="ml-10 p-3 max-w-[300px]leading-relaxed md:max-w-[900px] "><li className="md:p-3 list-disc">{chapters[activeChapter].ul2c}</li></ul>}
+      {chapters[activeChapter].paragraph2 !== "" && (
+        <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">
+          {chapters[activeChapter].paragraph2}
+        </p>
+      )}
+      {chapters[activeChapter].paragraph2b !== "" && (
+        <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">
+          {chapters[activeChapter].paragraph2b}
+        </p>
+      )}
+      {chapters[activeChapter].paragraph2c !== "" && (
+        <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">
+          {chapters[activeChapter].paragraph2c}
+        </p>
+      )}
       <div className="flex flex-col justify-center items-center">
         <hr className="p-5 pt-3 mt-4 mb-2 min-w-[200px] md:min-w-[500px] max-w-[620px]" />
       </div>
       <h3 id="subtitle3" className="text-xl p-3">
         {chapters[activeChapter].subtitle3}
       </h3>
-      {chapters[activeChapter].paragraph3 !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph3}</p>}
-      {chapters[activeChapter].paragraph3b !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph3b}</p>}
-      {chapters[activeChapter].paragraph3c !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph3c}</p>}
+      {chapters[activeChapter].paragraph3 !== "" && (
+        <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">
+          {chapters[activeChapter].paragraph3}
+        </p>
+      )}
+      {chapters[activeChapter].paragraph3b !== "" && (
+        <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">
+          {chapters[activeChapter].paragraph3b}
+        </p>
+      )}
+      {chapters[activeChapter].paragraph3c !== "" && (
+        <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">
+          {chapters[activeChapter].paragraph3c}
+        </p>
+      )}
       <div className="flex flex-col justify-center items-center">
         <hr className="p-5 pt-3  mt-4 mb-2 min-w-[200px] md:min-w-[500px] max-w-[620px]" />
       </div>
       <h3 id="subtitle4" className="text-xl p-3">
         {chapters[activeChapter].subtitle4}
       </h3>
-      {chapters[activeChapter].paragraph4 !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph4}</p>}
-      {chapters[activeChapter].paragraph4b !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph4b}</p>}
+      {chapters[activeChapter].paragraph4 !== "" && (
+        <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">
+          {chapters[activeChapter].paragraph4}
+        </p>
+      )}
+      {chapters[activeChapter].paragraph4b !== "" && (
+        <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">
+          {chapters[activeChapter].paragraph4b}
+        </p>
+      )}
+      {chapters[activeChapter].paragraph4c !== "" && (
+        <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">
+          {chapters[activeChapter].paragraph4c}
+        </p>
+      )}
       <div className="flex flex-col justify-center items-center">
         <hr className="p-5 pt-3 mt-4 mb-2 min-w-[200px] md:min-w-[500px] max-w-[620px]" />
       </div>
-      {chapters[activeChapter].img !== "" ? <img src={chapters[activeChapter].img} alt={chapters[activeChapter].title} className="p-3 max-w-[320px] mx-auto md:max-w-[60%]" /> : null}
+      {chapters[activeChapter].img !== "" ? (
+        <img
+          src={chapters[activeChapter].img}
+          alt={chapters[activeChapter].title}
+          className="p-3 max-w-[320px] mx-auto md:max-w-[60%]"
+        />
+      ) : null}
     </div>
   );
 };
