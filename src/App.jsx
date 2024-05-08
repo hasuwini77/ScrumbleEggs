@@ -4,8 +4,8 @@ import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero/Hero";
 import HighlightedFeature from "./components/HighlightedFeature";
-import feature1 from "./assets/images/feature-1.webp";
-import feature2 from "./assets/images/feature-2.webp";
+import feature1 from "./assets/images/feature1.png";
+import feature2 from "./assets/images/feature2.png";
 
 function App() {
   return (
