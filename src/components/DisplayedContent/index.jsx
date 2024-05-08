@@ -228,6 +228,11 @@ const DisplayedContent = ({ activeChapter }) => {
           {chapters[activeChapter].paragraph2c}
         </p>
       )}
+      {chapters[activeChapter].paragraph2 !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph2}</p>}
+      {chapters[activeChapter].paragraph2b !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph2b}</p>}
+      {chapters[activeChapter].ul2 !== "" && <ul className="ml-10 p-3 max-w-[300px]leading-relaxed md:max-w-[900px] "><li className="md:p-3 list-disc">{chapters[activeChapter].ul2}</li></ul>}
+      {chapters[activeChapter].ul2b !== "" && <ul className="ml-10 p-3 max-w-[300px]leading-relaxed md:max-w-[900px] "><li className="md:p-3 list-disc">{chapters[activeChapter].ul2b}</li></ul>}
+      {chapters[activeChapter].ul2c !== "" && <ul className="ml-10 p-3 max-w-[300px]leading-relaxed md:max-w-[900px] "><li className="md:p-3 list-disc">{chapters[activeChapter].ul2c}</li></ul>}
       <div className="flex flex-col justify-center items-center">
         <hr className="p-5 pt-3 mt-4 mb-2 min-w-[200px] md:min-w-[500px] max-w-[620px]" />
       </div>
