@@ -46,11 +46,10 @@ const DisplayedContent = ({ activeChapter }) => {
       paragraph3c: "The Increment is a step towards a goal or vision. It is the usable end product from a Sprint. Teams can adopt different methods to define and demonstrate their Sprint Goals. Despite the flexibility, the fundamental Sprint Goal—what the team wants to achieve from the current Sprint—can’t be compromised.",
 
       subtitle4: "",
-      paragraph4: 
-        "",
+      paragraph4: "",
       paragraph4b: "",
       
-      subtitle5: "Development Team",
+      subtitle5: "",
       img: scrumFramework,
       video: "",
     },
