@@ -6,17 +6,25 @@ const DisplayedContent = ({ activeChapter }) => {
     1: {
       title: "Definition of Agile",
       subtitle1: "",
-      paragraph1: "The Agile 'Software Development' Manifesto emerged from a meeting held on February 11-13, 2001, at The Lodge at Snowbird ski resort in Utah. ",
-      paragraph1b: "It represents a collaborative effort among various software development methodologies, including Extreme Programming, SCRUM, DSDM, Adaptive Software Development, Crystal, Feature-Driven Development, and Pragmatic Programming. ",
-      paragraph1c: 'The term "agile" was chosen, although some participants had concerns about its pronunciation.The Agile Alliance, formed by independent thinkers in software development, adopted the Manifesto as a guiding principle. ',
+      paragraph1:
+        "The Agile 'Software Development' Manifesto emerged from a meeting held on February 11-13, 2001, at The Lodge at Snowbird ski resort in Utah. ",
+      paragraph1b:
+        "It represents a collaborative effort among various software development methodologies, including Extreme Programming, SCRUM, DSDM, Adaptive Software Development, Crystal, Feature-Driven Development, and Pragmatic Programming. ",
+      paragraph1c:
+        'The term "agile" was chosen, although some participants had concerns about its pronunciation.The Agile Alliance, formed by independent thinkers in software development, adopted the Manifesto as a guiding principle. ',
       paragraph1d: "",
       subtitle2: "History and Origins",
-      paragraph2: 'The meeting at Snowbird ski resort was preceded by a gathering organized by Kent Beck at the Rogue River Lodge in Oregon in the spring of 2000, which primarily focused on Extreme Programming proponents and a few outsiders. Discussions about "Light" or "Lightweight" methodologies took place throughout 2000, with proponents like Bob Martin advocating for a conference to bring together leaders in the field.',
-      paragraph2b: 'Alistair Cockburn expressed dissatisfaction with the term "Light" due to its connotations. Eventually, a meeting was arranged in January to February 2001 in Chicago, leading to debates over the location, with Snowbird, Utah, being chosen. The Agile Alliance aims to promote innovative thinking in software development methodologies and organizations, encouraging agility in approach and mindset',
+      paragraph2:
+        'The meeting at Snowbird ski resort was preceded by a gathering organized by Kent Beck at the Rogue River Lodge in Oregon in the spring of 2000, which primarily focused on Extreme Programming proponents and a few outsiders. Discussions about "Light" or "Lightweight" methodologies took place throughout 2000, with proponents like Bob Martin advocating for a conference to bring together leaders in the field.',
+      paragraph2b:
+        'Alistair Cockburn expressed dissatisfaction with the term "Light" due to its connotations. Eventually, a meeting was arranged in January to February 2001 in Chicago, leading to debates over the location, with Snowbird, Utah, being chosen. The Agile Alliance aims to promote innovative thinking in software development methodologies and organizations, encouraging agility in approach and mindset',
       subtitle3: "Key Principle",
-      paragraph3: "The highest priority is to satisfy the customer through early and continuous delivery of valuable software. ",
-      paragraph3b: "Embrace changing requirements for the customers advantage and deliver working software frequently",
-      paragraph3c: "Cultivate collaboration between business people and developers, and prioritize face-to-face communication for efficient information exchange",
+      paragraph3:
+        "The highest priority is to satisfy the customer through early and continuous delivery of valuable software. ",
+      paragraph3b:
+        "Embrace changing requirements for the customers advantage and deliver working software frequently",
+      paragraph3c:
+        "Cultivate collaboration between business people and developers, and prioritize face-to-face communication for efficient information exchange",
       subtitle4: "",
       paragraph4: "",
       paragraph4b: "",
@@ -143,7 +151,8 @@ const DisplayedContent = ({ activeChapter }) => {
     5: {
       title: "Tools and resources",
       subtitle1: "Digital Tools for Scrum Overview",
-      paragraph1: "In the dynamic world of Agile project management, digital tools play a pivotal role in facilitating the Scrum framework, helping teams to organize, plan, and execute projects effciently. These tools are designed to cater to the specific needs of Scrum teams, providing functionality that supports all aspects of the Agile methodology—from sprint planning to retrospective analysis.",
+      paragraph1:
+        "In the dynamic world of Agile project management, digital tools play a pivotal role in facilitating the Scrum framework, helping teams to organize, plan, and execute projects effciently. These tools are designed to cater to the specific needs of Scrum teams, providing functionality that supports all aspects of the Agile methodology—from sprint planning to retrospective analysis.",
       paragraph1b: "",
       paragraph1c: "",
       paragraph1d: "",
@@ -154,11 +163,13 @@ const DisplayedContent = ({ activeChapter }) => {
       ul2b: "Trello: Trello utilizes a more visual approach with its card-based system that is intuitive and easy to use, making it popular among teams that prefer a straightforward and visually oriented task management tool. Each card represents a task, and these can be moved across different columns (or lists) that represent various stages of the project lifecycle. Trello is highly adaptable and can be used for everything from simple task management to comprehensive Scrum projects, with the ability to add deadlines, attachments, custom labels, and even automation through Butler to streamline project workflows.",
       ul2c: "Notion: As a versatile tool that combines note-taking, task management, databases, and calendars into a single integrated workspace, Notion stands out for its flexibility. It allows teams to create customized workspaces that can evolve from simple lists to complex databases, adapting to the project's needs. Notion is ideal for teams that need a flexible and expansive tool to document their development process, manage sprints, and retain project artifacts in a structured yet adaptable format.",
       subtitle3: "Advantages of Using Digital Tools",
-      paragraph3: "Digital tools help in fostering collaboration and transparency within Scrum teams. They allow team members, regardless of their physical location, to stay updated with real-time progress and changes. This is crucial for maintaining the pace of development and ensuring that all team members are aligned with the project goals and timelines. Furthermore, these tools provide analytical insights that are essential for continuous improvement—a core principle of Agile methodologies.",
+      paragraph3:
+        "Digital tools help in fostering collaboration and transparency within Scrum teams. They allow team members, regardless of their physical location, to stay updated with real-time progress and changes. This is crucial for maintaining the pace of development and ensuring that all team members are aligned with the project goals and timelines. Furthermore, these tools provide analytical insights that are essential for continuous improvement—a core principle of Agile methodologies.",
       paragraph3b: "",
       paragraph3c: "",
       subtitle4: "Choosing the Right Tool",
-      paragraph4: "Selecting the right tool depends on the team's specific needs, the complexity of the project, and the working environment. For instance, Jira might be the preferred choice for software development teams that require detailed tracking and reporting capabilities, while Trello could be more suited for smaller teams or projects that need a quick setup with less complexity. Notion is best for teams that prioritize flexibility and the integration of various types of content and data tracking in their project management practices.",
+      paragraph4:
+        "Selecting the right tool depends on the team's specific needs, the complexity of the project, and the working environment. For instance, Jira might be the preferred choice for software development teams that require detailed tracking and reporting capabilities, while Trello could be more suited for smaller teams or projects that need a quick setup with less complexity. Notion is best for teams that prioritize flexibility and the integration of various types of content and data tracking in their project management practices.",
       paragraph4b: "",
       img: "",
       video: "",
