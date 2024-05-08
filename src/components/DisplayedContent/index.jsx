@@ -35,17 +35,18 @@ const DisplayedContent = ({ activeChapter }) => {
       subtitle2: "What are the Scrum roles?",
       paragraph2: 
         "The Scrum framework is being made up of a Scrum Team consisting of a Product Owner, a Scrum Master and Developers, each of which have specific accountabilities. They work together towards a common objective, the Product Goal, and are responsible for all product-related activities.",
-      paragraph2b: "",
+      paragraph2b: 
+        "The Product Owner maximizes the value of the product by managing the product backlog and making decisions that benefit stakeholders. They prioritize, communicate, and ensure transparency of the product backlog. Scrum masters act as coaches to the rest of the team. They are accountable for the Scrum Team’s effectiveness and ensures the scrum framework is followed. They coach teams, Product Owners, and the business to improve its Scrum processes and optimize delivery. The development team includes the people that do the work. The team members have different skill sets and cross-train each other, so no person becomes a bottleneck in delivering work. The development team can be comprised of all kinds of people including designers, writers, programmers and so on.",
 
-      subtitle3: "Product Owner",
+      subtitle3: "What are the Scrum Artifacts?",
       paragraph3: 
-        "The Product Owner maximizes the value of the product by managing the product backlog and making decisions that benefit stakeholders. They prioritize, communicate, and ensure transparency of the product backlog.",
-      paragraph3b: "",
-      paragraph3c: "",
+        "Scrum Teams use tools called Scrum artifacts to solve problems and manage projects. Scrum artifacts provide critical planning and task information to team members and stakeholders. There are three primary artifacts:",
+      paragraph3b: "The Product Backlog is a dynamic list of features, requirements, enhancements, and fixes that must be completed for project success. It is essentially the team’s to-do list, which is constantly revisited and reprioritized to adapt to market changes. The product owner maintains and updates the list, removing irrelevant items or adding new requests from customers.   The Sprint Backlog is the list of items to be completed by the development team in the current Sprint cycle. Before each Sprint, the team chooses which items it will work on from the Product Backlog. A Sprint Backlog is flexible and can evolve during a Sprint.",
+      paragraph3c: "The Increment is a step towards a goal or vision. It is the usable end product from a Sprint. Teams can adopt different methods to define and demonstrate their Sprint Goals. Despite the flexibility, the fundamental Sprint Goal—what the team wants to achieve from the current Sprint—can’t be compromised.",
 
-      subtitle4: "Scrum Master",
+      subtitle4: "",
       paragraph4: 
-        "Scrum masters act as coaches to the rest of the team. They are accountable for the Scrum Team’s effectiveness and ensures the scrum framework is followed. They coach teams, Product Owners, and the business to improve its Scrum processes and optimize delivery.",
+        "",
       paragraph4b: "",
       
       subtitle5: "Development Team",
