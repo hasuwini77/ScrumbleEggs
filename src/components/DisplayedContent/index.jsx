@@ -115,23 +115,26 @@ const DisplayedContent = ({ activeChapter }) => {
       video: "",
     },
     5: {
-      title: "Chapter 5",
-      subtitle1: "subttle1",
-      paragraph1: "Content for Chapter 1",
-      paragraph1b: "Content for Chapter 1",
-      paragraph1c: "Content for Chapter 1",
-      paragraph1d: "Content for Chapter 1",
-      subtitle2: "subttle2",
-      paragraph2: "Content for Chapter 2",
-      paragraph2b: "Content for Chapter 2",
-      subtitle3: "subttle3",
-      paragraph3: "Content for Chapter 3",
-      paragraph3b: "Content for Chapter 3",
-      paragraph3c: "Content for Chapter 3",
-      subtitle4: "",
-      paragraph4: "",
+      title: "Tools and resources",
+      subtitle1: "Digital Tools for Scrum Overview",
+      paragraph1: "In the dynamic world of Agile project management, digital tools play a pivotal role in facilitating the Scrum framework, helping teams to organize, plan, and execute projects effciently. These tools are designed to cater to the specific needs of Scrum teams, providing functionality that supports all aspects of the Agile methodology—from sprint planning to retrospective analysis.",
+      paragraph1b: "",
+      paragraph1c: "",
+      paragraph1d: "",
+      subtitle2: "Key Tools",
+      paragraph2: "",
+      paragraph2b: "",
+      ul2: "Jira:\nDeveloped by Atlassian, Jira is one of the most widely used tools for tracking software development projects. It offers powerful features to manage Scrum and Kanban projects, making it possible for teams to customize workflows, track issues, and manage sprints. Jira’s capabilities include creating user stories, planning sprints, tracking issues through customizable boards, and generating detailed reports that help analyze team performance and project progress. Jira integrates seamlessly with other tools, providing a robust environment for developers to manage complex projects.",
+      ul2b: "Trello: Trello utilizes a more visual approach with its card-based system that is intuitive and easy to use, making it popular among teams that prefer a straightforward and visually oriented task management tool. Each card represents a task, and these can be moved across different columns (or lists) that represent various stages of the project lifecycle. Trello is highly adaptable and can be used for everything from simple task management to comprehensive Scrum projects, with the ability to add deadlines, attachments, custom labels, and even automation through Butler to streamline project workflows.",
+      ul2c: "Notion: As a versatile tool that combines note-taking, task management, databases, and calendars into a single integrated workspace, Notion stands out for its flexibility. It allows teams to create customized workspaces that can evolve from simple lists to complex databases, adapting to the project's needs. Notion is ideal for teams that need a flexible and expansive tool to document their development process, manage sprints, and retain project artifacts in a structured yet adaptable format.",
+      subtitle3: "Advantages of Using Digital Tools",
+      paragraph3: "Digital tools help in fostering collaboration and transparency within Scrum teams. They allow team members, regardless of their physical location, to stay updated with real-time progress and changes. This is crucial for maintaining the pace of development and ensuring that all team members are aligned with the project goals and timelines. Furthermore, these tools provide analytical insights that are essential for continuous improvement—a core principle of Agile methodologies.",
+      paragraph3b: "",
+      paragraph3c: "",
+      subtitle4: "Choosing the Right Tool",
+      paragraph4: "Selecting the right tool depends on the team's specific needs, the complexity of the project, and the working environment. For instance, Jira might be the preferred choice for software development teams that require detailed tracking and reporting capabilities, while Trello could be more suited for smaller teams or projects that need a quick setup with less complexity. Notion is best for teams that prioritize flexibility and the integration of various types of content and data tracking in their project management practices.",
       paragraph4b: "",
-      img: "my img",
+      img: "",
       video: "",
     },
     6: {
@@ -175,6 +178,9 @@ const DisplayedContent = ({ activeChapter }) => {
       </h3>
       {chapters[activeChapter].paragraph2 !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph2}</p>}
       {chapters[activeChapter].paragraph2b !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph2b}</p>}
+      {chapters[activeChapter].ul2 !== "" && <ul className="ml-10 p-3 max-w-[300px]leading-relaxed md:max-w-[900px] "><li className="md:p-3 list-disc">{chapters[activeChapter].ul2}</li></ul>}
+      {chapters[activeChapter].ul2b !== "" && <ul className="ml-10 p-3 max-w-[300px]leading-relaxed md:max-w-[900px] "><li className="md:p-3 list-disc">{chapters[activeChapter].ul2b}</li></ul>}
+      {chapters[activeChapter].ul2c !== "" && <ul className="ml-10 p-3 max-w-[300px]leading-relaxed md:max-w-[900px] "><li className="md:p-3 list-disc">{chapters[activeChapter].ul2c}</li></ul>}
       <div className="flex flex-col justify-center items-center">
         <hr className="p-5 pt-3 mt-4 mb-2 min-w-[200px] md:min-w-[500px] max-w-[620px]" />
       </div>
