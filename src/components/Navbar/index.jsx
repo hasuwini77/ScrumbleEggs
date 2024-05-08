@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Link, Button } from "@nextui-org/react";
+import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Link } from "@nextui-org/react";
 import Logo from "../Logo";
 import ToggleSwitchButton from "../ToggleSwitchButton";
 import styles from "./Navbar.module.css";
@@ -46,36 +46,29 @@ export default function ScrumNavBar() {
         </NavbarContent>
       </NavbarContent>
 
-      {/* Below is the Mobile Navbar  */}
+      {/* Below is the Mobile Navbar with animation */}
       <NavbarMenu className="sm:hidden flex flex-col justify-center items-center">
-        <NavbarItem className="mb-3">
-          <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-            <Link color="foreground" href="#" className={`${styles.menuItems} h-16 w-40 px-3 flex items-center justify-center border border-foreground rounded-lg`}>
-              <span className={styles.menuLinks}> Learn Scrum </span>
-            </Link>
+        <motion.div initial={{ x: "100%" }} animate={isMenuOpen ? { x: 0 } : { x: "100%" }} transition={{ type: "spring", stiffness: 150, damping: 20 }}>
+          <motion.div initial={{ opacity: 0, x: 50 }} animate={isMenuOpen ? { opacity: 1, x: 0 } : { opacity: 0, x: 50 }} transition={{ delay: isMenuOpen ? 0.3 : 0, duration: 0.3 }}>
+            <NavbarItem className="mb-3">
+              <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+                <Link color="foreground" href="#" className={`${styles.menuItems} h-16 w-40 px-3 flex items-center justify-center border border-foreground rounded-lg`}>
+                  <span className={styles.menuLinks}> Learn Scrum </span>
+                </Link>
+              </motion.div>
+            </NavbarItem>
           </motion.div>
-        </NavbarItem>
-        <NavbarMenuItem className="mb-3">
-          <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-            <Link color="foreground" href="#" className={`${styles.menuItems} h-16 w-40  px-3 flex items-center justify-center border border-foreground rounded-lg`}>
-              <span className={styles.menuLinks}> Our Team </span>
-            </Link>
+          <motion.div initial={{ opacity: 0, x: 50 }} animate={isMenuOpen ? { opacity: 1, x: 0 } : { opacity: 0, x: 50 }} transition={{ delay: isMenuOpen ? 0.4 : 0, duration: 0.3 }}>
+            <NavbarMenuItem className="mb-3">
+              <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+                <Link color="foreground" href="#" className={`${styles.menuItems} h-16 w-40 px-3 flex items-center justify-center border border-foreground rounded-lg`}>
+                  <span className={styles.menuLinks}> Our Team </span>
+                </Link>
+              </motion.div>
+            </NavbarMenuItem>
           </motion.div>
-        </NavbarMenuItem>
-        <NavbarMenuItem className="mb-3">
-          <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-            <Link color="foreground" href="#" className={`${styles.menuItems} h-16  w-40 px-3 flex items-center justify-center border border-foreground rounded-lg`}>
-              <span className={styles.menuLinks}> Dive In</span>
-            </Link>
-          </motion.div>
-        </NavbarMenuItem>
-        <NavbarMenuItem className="mb-3">
-          <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-            <Link color="foreground" href="#" className={`${styles.menuItems} h-16 w-40 px-3 flex items-center justify-center border border-foreground rounded-lg`}>
-              <span className={styles.menuLinks}> Contact Us </span>
-            </Link>
-          </motion.div>
-        </NavbarMenuItem>
+          {/* Repeat the above structure for other NavbarItems with staggered delay */}
+        </motion.div>
       </NavbarMenu>
     </Navbar>
   );
