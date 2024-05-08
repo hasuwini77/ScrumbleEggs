@@ -1,4 +1,4 @@
-//HighlightedFeature and hero
+
 import HighlightedFeature from "../components/HighlightedFeature";
 import Hero from "../components/Hero/Hero";
 import img1 from  "../assets/images/feature1.png";
