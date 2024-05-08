@@ -1,5 +1,6 @@
 import ScrumNavBar from "./components/Navbar";
 import ButtonComponent from "./components/Button";
+import OurTeam from './components/OurTeam/OurTeam';
 import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero/Hero";
@@ -25,7 +26,8 @@ function App() {
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris."
         images={[feature1, feature2]}
       />
-      <Footer />
+      <OurTeam />
+      <Footer/>
     </>
   );
 }
