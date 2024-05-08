@@ -1,4 +1,5 @@
 import standupPhoto1 from "../../assets/standupphoto1.jpg";
+import implentingScrum from "../../assets/images/implementing-scrum.jpeg";
 
 const DisplayedContent = ({ activeChapter }) => {
   const chapters = {
@@ -85,24 +86,49 @@ const DisplayedContent = ({ activeChapter }) => {
 </div>`,
     },
     4: {
-      title: "Chapter 4",
-      subtitle1: "subttle1",
-      paragraph1: "Content for Chapter 1",
-      paragraph1b: "Content for Chapter 1",
-      paragraph1c: "Content for Chapter 1",
-      paragraph1d: "Content for Chapter 1",
-      subtitle2: "subttle2",
-      paragraph2: "Content for Chapter 2",
-      paragraph2b: "Content for Chapter 2",
-      subtitle3: "subttle3",
-      paragraph3: "Content for Chapter 3",
-      paragraph3b: "Content for Chapter 3",
-      paragraph3c: "Content for Chapter 3",
-      subtitle4: "",
-      paragraph4: "",
-      paragraph4b: "",
-      img: "my img",
-      video: "",
+      title: "Implementing Scrum",
+      subtitle1: "Getting Started",
+      paragraph1:
+        "Scrum is a lightweight project management approach designed to help teams deliver value to customers quickly and frequently. The three primary artifacts are the Product Backlog, Scrum Board, and Increment.",
+      paragraph1b:
+        "The Product Backlog lists all potential work, while the Sprint Backlog lists items to be completed during the next Sprint. A Scrum Board tracks work progress.",
+      paragraph1c:
+        "Scrum teams consist of Developers, a Product Owner, and a Scrum Master. The team is cross-functional, self-managed, and organizes its work in Sprints.",
+      paragraph1d:
+        "Key events in Scrum include Sprint Planning, Daily Scrum, Sprint Review, and Sprint Retrospective.",
+      subtitle2: "Common Challenges and Solutions",
+      paragraph2:
+        "Maintaining time-boxing can be difficult if teams lack focus. Solution: Keep meeting agendas clear and emphasize strict time-boxing.",
+      paragraph2b:
+        "Lack of buy-in from senior management can impede adoption. Solution: Address management challenges using Scrum methodologies.",
+      paragraph2c:
+        "Skipping meetings leads to transparency issues. Solution: Ensure all meetings are on track and adhere to their allotted time.",
+      subtitle3: "Case Studies and Examples",
+      paragraph3:
+        "Mayden's Transformation from Waterfall to Scrum: A UK company improved project delivery and customer satisfaction by adopting Scrum through Agile training and strong management support.",
+      paragraph3b:
+        "Capstone Team's Adoption of Scrum: A team overcame project management challenges by embracing the Scrum framework, incorporating asynchronous daily meetings, and tracking their velocity.",
+      paragraph3c:
+        "Radware's Scrum Implementation: The global leader in cybersecurity increased visibility and alignment by conducting workshops, engaging globally, and adopting Agile Release Trains.",
+      subtitle4: "Tools and Resources",
+      paragraph4:
+        "Digital tools like Jira, Trello, and Notion help teams manage sprints, track progress, and improve collaboration.",
+      paragraph4b:
+        'Books such as "Scrum: The Art of Doing Twice the Work in Half the Time" and "Agile Project Management with Scrum" offer foundational knowledge.',
+      paragraph4c:
+        "Courses and certifications like Certified ScrumMaster (CSM) and Professional Scrum Master (PSM) provide structured learning and validate expertise in Scrum practices.",
+      img: implentingScrum,
+      video: `<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe
+    style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 75%; height: 75%;"
+    src="https://www.youtube.com/embed/iv3FGFEzprs?si=Ag6DrwdgkgcnDNpS"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>`,
     },
     5: {
       title: "Chapter 5",
@@ -149,43 +175,108 @@ const DisplayedContent = ({ activeChapter }) => {
   return (
     <div>
       <h2 className="text-2xl p-3">{chapters[activeChapter].title}</h2>
-      {chapters[activeChapter].video !== "" ? <div className="video" dangerouslySetInnerHTML={{ __html: chapters[activeChapter].video }} /> : null}
+      {chapters[activeChapter].video !== "" ? (
+        <div
+          className="video"
+          dangerouslySetInnerHTML={{ __html: chapters[activeChapter].video }}
+        />
+      ) : null}
       <h3 id="subtitle1" className="text-xl p-3">
         {chapters[activeChapter].subtitle1}
       </h3>
-      {chapters[activeChapter].paragraph1 !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph1}</p>}
-      {chapters[activeChapter].paragraph1b !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph1b}</p>}
-      {chapters[activeChapter].paragraph1c !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph1c}</p>}
-      {chapters[activeChapter].paragraph1d !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph1d}</p>}
+      {chapters[activeChapter].paragraph1 !== "" && (
+        <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">
+          {chapters[activeChapter].paragraph1}
+        </p>
+      )}
+      {chapters[activeChapter].paragraph1b !== "" && (
+        <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">
+          {chapters[activeChapter].paragraph1b}
+        </p>
+      )}
+      {chapters[activeChapter].paragraph1c !== "" && (
+        <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">
+          {chapters[activeChapter].paragraph1c}
+        </p>
+      )}
+      {chapters[activeChapter].paragraph1d !== "" && (
+        <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">
+          {chapters[activeChapter].paragraph1d}
+        </p>
+      )}
       <div className="flex flex-col justify-center items-center">
         <hr className="p-5 pt-3 mt-4 mb-2 min-w-[200px] md:min-w-[500px] max-w-[620px]" />
       </div>
       <h3 id="subtitle2" className="text-xl p-3">
         {chapters[activeChapter].subtitle2}
       </h3>
-      {chapters[activeChapter].paragraph2 !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph2}</p>}
-      {chapters[activeChapter].paragraph2b !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph2b}</p>}
+      {chapters[activeChapter].paragraph2 !== "" && (
+        <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">
+          {chapters[activeChapter].paragraph2}
+        </p>
+      )}
+      {chapters[activeChapter].paragraph2b !== "" && (
+        <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">
+          {chapters[activeChapter].paragraph2b}
+        </p>
+      )}
+      {chapters[activeChapter].paragraph2c !== "" && (
+        <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">
+          {chapters[activeChapter].paragraph2c}
+        </p>
+      )}
       <div className="flex flex-col justify-center items-center">
         <hr className="p-5 pt-3 mt-4 mb-2 min-w-[200px] md:min-w-[500px] max-w-[620px]" />
       </div>
       <h3 id="subtitle3" className="text-xl p-3">
         {chapters[activeChapter].subtitle3}
       </h3>
-      {chapters[activeChapter].paragraph3 !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph3}</p>}
-      {chapters[activeChapter].paragraph3b !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph3b}</p>}
-      {chapters[activeChapter].paragraph3c !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph3c}</p>}
+      {chapters[activeChapter].paragraph3 !== "" && (
+        <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">
+          {chapters[activeChapter].paragraph3}
+        </p>
+      )}
+      {chapters[activeChapter].paragraph3b !== "" && (
+        <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">
+          {chapters[activeChapter].paragraph3b}
+        </p>
+      )}
+      {chapters[activeChapter].paragraph3c !== "" && (
+        <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">
+          {chapters[activeChapter].paragraph3c}
+        </p>
+      )}
       <div className="flex flex-col justify-center items-center">
         <hr className="p-5 pt-3  mt-4 mb-2 min-w-[200px] md:min-w-[500px] max-w-[620px]" />
       </div>
       <h3 id="subtitle4" className="text-xl p-3">
         {chapters[activeChapter].subtitle4}
       </h3>
-      {chapters[activeChapter].paragraph4 !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph4}</p>}
-      {chapters[activeChapter].paragraph4b !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph4b}</p>}
+      {chapters[activeChapter].paragraph4 !== "" && (
+        <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">
+          {chapters[activeChapter].paragraph4}
+        </p>
+      )}
+      {chapters[activeChapter].paragraph4b !== "" && (
+        <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">
+          {chapters[activeChapter].paragraph4b}
+        </p>
+      )}
+      {chapters[activeChapter].paragraph4c !== "" && (
+        <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">
+          {chapters[activeChapter].paragraph4c}
+        </p>
+      )}
       <div className="flex flex-col justify-center items-center">
         <hr className="p-5 pt-3 mt-4 mb-2 min-w-[200px] md:min-w-[500px] max-w-[620px]" />
       </div>
-      {chapters[activeChapter].img !== "" ? <img src={chapters[activeChapter].img} alt={chapters[activeChapter].title} className="p-3 max-w-[320px] mx-auto md:max-w-[60%]" /> : null}
+      {chapters[activeChapter].img !== "" ? (
+        <img
+          src={chapters[activeChapter].img}
+          alt={chapters[activeChapter].title}
+          className="p-3 max-w-[320px] mx-auto md:max-w-[60%]"
+        />
+      ) : null}
     </div>
   );
 };
