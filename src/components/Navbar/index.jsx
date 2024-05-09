@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Link } from "@nextui-org/react";
+import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Link, Button } from "@nextui-org/react";
 import Logo from "../Logo";
 import ToggleSwitchButton from "../ToggleSwitchButton";
 import styles from "./Navbar.module.css";
 import { motion } from "framer-motion";
 
-export default function ScrumNavBar() {
+export default function ScrumNavBar({ isDarkMode, toggleTheme }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
@@ -41,7 +41,7 @@ export default function ScrumNavBar() {
         </NavbarContent>
         <NavbarContent justify="end">
           <NavbarItem>
-            <ToggleSwitchButton />
+            <ToggleSwitchButton isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
           </NavbarItem>
         </NavbarContent>
       </NavbarContent>
