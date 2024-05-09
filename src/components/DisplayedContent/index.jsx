@@ -62,7 +62,17 @@ const DisplayedContent = ({ activeChapter }) => {
 
       subtitle5: "",
       img: scrumFramework,
-      video: "",
+      video: `<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe
+    style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 75%; height: 75%;"
+    src="https://www.youtube.com/embed/65WcrMc10L8?si=SWWoHQxTqee9sQmW"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>`,
     },
     3: {
       title: "Scrum Ceremonies",
@@ -129,7 +139,7 @@ const DisplayedContent = ({ activeChapter }) => {
       video: `<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
   <iframe
     style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 75%; height: 75%;"
-    src="https://www.youtube.com/embed/iv3FGFEzprs?si=Ag6DrwdgkgcnDNpS"
+    src="https://www.youtube.com/embed/iv3FGFEzprs?si=AkW9iPDVNgwhP5p5"
     title="YouTube video player"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -163,7 +173,17 @@ const DisplayedContent = ({ activeChapter }) => {
         "Selecting the right tool depends on the team's specific needs, the complexity of the project, and the working environment. For instance, Jira might be the preferred choice for software development teams that require detailed tracking and reporting capabilities, while Trello could be more suited for smaller teams or projects that need a quick setup with less complexity. Notion is best for teams that prioritize flexibility and the integration of various types of content and data tracking in their project management practices.",
       paragraph4b: "",
       img: "",
-      video: "",
+      video: `<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe
+    style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 75%; height: 75%;"
+    src=" https://www.youtube.com/embed/Vfieht6y5Lk?si=uiXpOkvQ8w-63XGr"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>`,
     },
     6: {
       title: "Chapter 6",
