@@ -1,6 +1,10 @@
+:root {
+  --hero-background-light: url("../../assets/agile.png");
+  --hero-background-dark: url("../../assets/agile-superdark.png");
+}
+
 .hero {
-    background-image: url('../../assets/agile.png');
-    background-size: cover;
-    background-position: top center;
-    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
 }
