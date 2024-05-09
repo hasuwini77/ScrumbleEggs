@@ -1,13 +1,12 @@
 import ScrumNavBar from "./components/Navbar";
 import ButtonComponent from "./components/Button";
-import Hero from "./components/Hero/index.jsx";
-import Footer from "./components/Footer";
 import MainContent from "./components/MainContent";
 import OurTeam from "./components/OurTeam/OurTeam";
 import HighlightedFeature from "./components/HighlightedFeature";
 import feature1 from "./assets/images/feature1.png";
 import feature2 from "./assets/images/feature2.png";
 import { useState, useEffect } from "react";
+import Hero from ".components/Hero";
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(true);
