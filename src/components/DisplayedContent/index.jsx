@@ -6,12 +6,9 @@ const DisplayedContent = ({ activeChapter }) => {
     1: {
       title: "Definition of Agile",
       subtitle1: "",
-      paragraph1:
-        "The Agile 'Software Development' Manifesto emerged from a meeting held on February 11-13, 2001, at The Lodge at Snowbird ski resort in Utah. ",
-      paragraph1b:
-        "It represents a collaborative effort among various software development methodologies, including Extreme Programming, SCRUM, DSDM, Adaptive Software Development, Crystal, Feature-Driven Development, and Pragmatic Programming. ",
-      paragraph1c:
-        'The term "agile" was chosen, although some participants had concerns about its pronunciation.The Agile Alliance, formed by independent thinkers in software development, adopted the Manifesto as a guiding principle. ',
+      paragraph1: "The Agile 'Software Development' Manifesto emerged from a meeting held on February 11-13, 2001, at The Lodge at Snowbird ski resort in Utah. ",
+      paragraph1b: "It represents a collaborative effort among various software development methodologies, including Extreme Programming, SCRUM, DSDM, Adaptive Software Development, Crystal, Feature-Driven Development, and Pragmatic Programming. ",
+      paragraph1c: 'The term "agile" was chosen, although some participants had concerns about its pronunciation.The Agile Alliance, formed by independent thinkers in software development, adopted the Manifesto as a guiding principle. ',
       paragraph1d: "",
       subtitle2: "History and Origins",
       paragraph2:
@@ -19,12 +16,9 @@ const DisplayedContent = ({ activeChapter }) => {
       paragraph2b:
         'Alistair Cockburn expressed dissatisfaction with the term "Light" due to its connotations. Eventually, a meeting was arranged in January to February 2001 in Chicago, leading to debates over the location, with Snowbird, Utah, being chosen. The Agile Alliance aims to promote innovative thinking in software development methodologies and organizations, encouraging agility in approach and mindset',
       subtitle3: "Key Principle",
-      paragraph3:
-        "The highest priority is to satisfy the customer through early and continuous delivery of valuable software. ",
-      paragraph3b:
-        "Embrace changing requirements for the customers advantage and deliver working software frequently",
-      paragraph3c:
-        "Cultivate collaboration between business people and developers, and prioritize face-to-face communication for efficient information exchange",
+      paragraph3: "The highest priority is to satisfy the customer through early and continuous delivery of valuable software. ",
+      paragraph3b: "Embrace changing requirements for the customers advantage and deliver working software frequently",
+      paragraph3c: "Cultivate collaboration between business people and developers, and prioritize face-to-face communication for efficient information exchange",
       subtitle4: "",
       paragraph4: "",
       paragraph4b: "",
@@ -118,10 +112,10 @@ const DisplayedContent = ({ activeChapter }) => {
       paragraph3: "Mayden's Transformation from Waterfall to Scrum: A UK company improved project delivery and customer satisfaction by adopting Scrum through Agile training and strong management support.",
       paragraph3b: "Capstone Team's Adoption of Scrum: A team overcame project management challenges by embracing the Scrum framework, incorporating asynchronous daily meetings, and tracking their velocity.",
       paragraph3c: "Radware's Scrum Implementation: The global leader in cybersecurity increased visibility and alignment by conducting workshops, engaging globally, and adopting Agile Release Trains.",
-      subtitle4: "Tools and Resources",
-      paragraph4: "Digital tools like Jira, Trello, and Notion help teams manage sprints, track progress, and improve collaboration.",
-      paragraph4b: 'Books such as "Scrum: The Art of Doing Twice the Work in Half the Time" and "Agile Project Management with Scrum" offer foundational knowledge.',
-      paragraph4c: "Courses and certifications like Certified ScrumMaster (CSM) and Professional Scrum Master (PSM) provide structured learning and validate expertise in Scrum practices.",
+      subtitle4: "",
+      paragraph4: "",
+      paragraph4b: "",
+      paragraph4c: "",
       img: implentingScrum,
       video: `<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
   <iframe
