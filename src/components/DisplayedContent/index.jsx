@@ -121,10 +121,10 @@ const DisplayedContent = ({ activeChapter }) => {
       paragraph3: "Mayden's Transformation from Waterfall to Scrum: A UK company improved project delivery and customer satisfaction by adopting Scrum through Agile training and strong management support.",
       paragraph3b: "Capstone Team's Adoption of Scrum: A team overcame project management challenges by embracing the Scrum framework, incorporating asynchronous daily meetings, and tracking their velocity.",
       paragraph3c: "Radware's Scrum Implementation: The global leader in cybersecurity increased visibility and alignment by conducting workshops, engaging globally, and adopting Agile Release Trains.",
-      subtitle4: "Tools and Resources",
-      paragraph4: "Digital tools like Jira, Trello, and Notion help teams manage sprints, track progress, and improve collaboration.",
-      paragraph4b: 'Books such as "Scrum: The Art of Doing Twice the Work in Half the Time" and "Agile Project Management with Scrum" offer foundational knowledge.',
-      paragraph4c: "Courses and certifications like Certified ScrumMaster (CSM) and Professional Scrum Master (PSM) provide structured learning and validate expertise in Scrum practices.",
+      subtitle4: "",
+      paragraph4: "",
+      paragraph4b: "",
+      paragraph4c: "",
       img: implentingScrum,
       video: `<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
   <iframe
