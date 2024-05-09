@@ -10,7 +10,21 @@ const DisplayedContent = ({ activeChapter }) => {
       paragraph1: "The Agile 'Software Development' Manifesto emerged from a meeting held on February 11-13, 2001, at The Lodge at Snowbird ski resort in Utah. ",
       paragraph1b: "It represents a collaborative effort among various software development methodologies, including Extreme Programming, SCRUM, DSDM, Adaptive Software Development, Crystal, Feature-Driven Development, and Pragmatic Programming. ",
       paragraph1c: 'The term "agile" was chosen, although some participants had concerns about its pronunciation.The Agile Alliance, formed by independent thinkers in software development, adopted the Manifesto as a guiding principle. ',
+      title: "Definition of Agile",
+      subtitle1: "",
+      paragraph1: "The Agile 'Software Development' Manifesto emerged from a meeting held on February 11-13, 2001, at The Lodge at Snowbird ski resort in Utah. ",
+      paragraph1b: "It represents a collaborative effort among various software development methodologies, including Extreme Programming, SCRUM, DSDM, Adaptive Software Development, Crystal, Feature-Driven Development, and Pragmatic Programming. ",
+      paragraph1c: 'The term "agile" was chosen, although some participants had concerns about its pronunciation.The Agile Alliance, formed by independent thinkers in software development, adopted the Manifesto as a guiding principle. ',
       paragraph1d: "",
+      subtitle2: "History and Origins",
+      paragraph2:
+        'The meeting at Snowbird ski resort was preceded by a gathering organized by Kent Beck at the Rogue River Lodge in Oregon in the spring of 2000, which primarily focused on Extreme Programming proponents and a few outsiders. Discussions about "Light" or "Lightweight" methodologies took place throughout 2000, with proponents like Bob Martin advocating for a conference to bring together leaders in the field.',
+      paragraph2b:
+        'Alistair Cockburn expressed dissatisfaction with the term "Light" due to its connotations. Eventually, a meeting was arranged in January to February 2001 in Chicago, leading to debates over the location, with Snowbird, Utah, being chosen. The Agile Alliance aims to promote innovative thinking in software development methodologies and organizations, encouraging agility in approach and mindset',
+      subtitle3: "Key Principle",
+      paragraph3: "The highest priority is to satisfy the customer through early and continuous delivery of valuable software. ",
+      paragraph3b: "Embrace changing requirements for the customers advantage and deliver working software frequently",
+      paragraph3c: "Cultivate collaboration between business people and developers, and prioritize face-to-face communication for efficient information exchange",
       subtitle2: "History and Origins",
       paragraph2:
         'The meeting at Snowbird ski resort was preceded by a gathering organized by Kent Beck at the Rogue River Lodge in Oregon in the spring of 2000, which primarily focused on Extreme Programming proponents and a few outsiders. Discussions about "Light" or "Lightweight" methodologies took place throughout 2000, with proponents like Bob Martin advocating for a conference to bring together leaders in the field.',
@@ -125,6 +139,10 @@ const DisplayedContent = ({ activeChapter }) => {
       paragraph4: "",
       paragraph4b: "",
       paragraph4c: "",
+      subtitle4: "",
+      paragraph4: "",
+      paragraph4b: "",
+      paragraph4c: "",
       img: implentingScrum,
       video: `<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
   <iframe
@@ -229,9 +247,6 @@ const DisplayedContent = ({ activeChapter }) => {
         {chapters[activeChapter].paragraph4 !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph4}</p>}
         {chapters[activeChapter].paragraph4b !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph4b}</p>}
         {chapters[activeChapter].paragraph4c !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph4c}</p>}
-        <div className="flex flex-col justify-center items-center">
-          <hr className="p-5 pt-3 mt-4 mb-2 min-w-[200px] md:min-w-[500px] max-w-[620px]" />
-        </div>
         {chapters[activeChapter].img !== "" ? <img src={chapters[activeChapter].img} alt={chapters[activeChapter].title} className="p-3 max-w-[320px] mx-auto md:max-w-[60%]" /> : null}
       </div>
     </div>
