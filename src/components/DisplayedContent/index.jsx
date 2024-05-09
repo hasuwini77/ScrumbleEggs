@@ -20,7 +20,7 @@ const DisplayedContent = ({ activeChapter }) => {
       subtitle4: "",
       paragraph4: "",
       paragraph4b: "",
-      img: "my img",
+      img: "",
       video: "",
     },
     2: {
