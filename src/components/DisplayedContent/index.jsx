@@ -139,10 +139,6 @@ const DisplayedContent = ({ activeChapter }) => {
       paragraph4: "",
       paragraph4b: "",
       paragraph4c: "",
-      subtitle4: "",
-      paragraph4: "",
-      paragraph4b: "",
-      paragraph4c: "",
       img: implentingScrum,
       video: `<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
   <iframe
