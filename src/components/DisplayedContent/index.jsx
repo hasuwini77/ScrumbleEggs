@@ -122,6 +122,8 @@ const DisplayedContent = ({ activeChapter }) => {
       subtitle1: "Digital Tools for Scrum Overview",
       paragraph1:
         "In the dynamic world of Agile project management, digital tools play a pivotal role in facilitating the Scrum framework, helping teams to organize, plan, and execute projects effciently. These tools are designed to cater to the specific needs of Scrum teams, providing functionality that supports all aspects of the Agile methodology—from sprint planning to retrospective analysis.",
+      paragraph1:
+        "In the dynamic world of Agile project management, digital tools play a pivotal role in facilitating the Scrum framework, helping teams to organize, plan, and execute projects effciently. These tools are designed to cater to the specific needs of Scrum teams, providing functionality that supports all aspects of the Agile methodology—from sprint planning to retrospective analysis.",
       paragraph1b: "",
       paragraph1c: "",
       paragraph1d: "",
@@ -134,9 +136,13 @@ const DisplayedContent = ({ activeChapter }) => {
       subtitle3: "Advantages of Using Digital Tools",
       paragraph3:
         "Digital tools help in fostering collaboration and transparency within Scrum teams. They allow team members, regardless of their physical location, to stay updated with real-time progress and changes. This is crucial for maintaining the pace of development and ensuring that all team members are aligned with the project goals and timelines. Furthermore, these tools provide analytical insights that are essential for continuous improvement—a core principle of Agile methodologies.",
+      paragraph3:
+        "Digital tools help in fostering collaboration and transparency within Scrum teams. They allow team members, regardless of their physical location, to stay updated with real-time progress and changes. This is crucial for maintaining the pace of development and ensuring that all team members are aligned with the project goals and timelines. Furthermore, these tools provide analytical insights that are essential for continuous improvement—a core principle of Agile methodologies.",
       paragraph3b: "",
       paragraph3c: "",
       subtitle4: "Choosing the Right Tool",
+      paragraph4:
+        "Selecting the right tool depends on the team's specific needs, the complexity of the project, and the working environment. For instance, Jira might be the preferred choice for software development teams that require detailed tracking and reporting capabilities, while Trello could be more suited for smaller teams or projects that need a quick setup with less complexity. Notion is best for teams that prioritize flexibility and the integration of various types of content and data tracking in their project management practices.",
       paragraph4:
         "Selecting the right tool depends on the team's specific needs, the complexity of the project, and the working environment. For instance, Jira might be the preferred choice for software development teams that require detailed tracking and reporting capabilities, while Trello could be more suited for smaller teams or projects that need a quick setup with less complexity. Notion is best for teams that prioritize flexibility and the integration of various types of content and data tracking in their project management practices.",
       paragraph4b: "",
