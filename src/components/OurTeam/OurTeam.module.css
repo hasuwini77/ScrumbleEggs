@@ -3,7 +3,6 @@
 }
 
 .teamItem{
-	/* background: #2c2c2c; for darkmode */
 	background: #a1a2a3;
 	text-align: center;
 	margin: 20px 0;
@@ -58,18 +57,8 @@
     height: 3px; 
 }
 
-/* Not working properly without hovering over the text?? */
-/* .teamInfoText {
-	color: black;
-	transition: all .25s ease-in-out;
-	-webkit-transition: all 1s ease-in-out;
-}
-
-.teamInfoText:hover {
-	color: white;
-} */
-
 .teamImg{
+	display: inline-block;
 	max-width: 140px;
 	padding: 6px 6px;
     background-color: #dedede;
