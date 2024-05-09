@@ -239,9 +239,6 @@ const DisplayedContent = ({ activeChapter }) => {
         {chapters[activeChapter].paragraph3 !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph3}</p>}
         {chapters[activeChapter].paragraph3b !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph3b}</p>}
         {chapters[activeChapter].paragraph3c !== "" && <p className="p-3 max-w-[300px]leading-relaxed md:max-w-[900px]">{chapters[activeChapter].paragraph3c}</p>}
-        <div className="flex flex-col justify-center items-center">
-          <hr className="p-5 pt-3  mt-4 mb-2 min-w-[200px] md:min-w-[500px] max-w-[620px]" />
-        </div>
         <h3 id="subtitle4" className="text-xl p-3">
           {chapters[activeChapter].subtitle4}
         </h3>
