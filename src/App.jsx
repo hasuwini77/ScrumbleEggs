@@ -7,12 +7,28 @@ import OurTeam from "./components/OurTeam/OurTeam";
 import HighlightedFeature from "./components/HighlightedFeature";
 import feature1 from "./assets/images/feature1.png";
 import feature2 from "./assets/images/feature2.png";
+import { useState, useEffect } from "react";
 
 function App() {
+  const [isDarkMode, setIsDarkMode] = useState(true);
+
+  useEffect(() => {
+    const mainElement = document.querySelector("main");
+    if (isDarkMode) {
+      mainElement.classList.add("dark");
+    } else {
+      mainElement.classList.remove("dark");
+    }
+  }, [isDarkMode]);
+
+  const toggleTheme = () => {
+    setIsDarkMode((prevMode) => !prevMode);
+  };
+
   return (
     <>
-      <ScrumNavBar />
-      <Hero />
+      <ScrumNavBar isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
+      <Hero isDarkMode={isDarkMode} />
       <h1 className="text-3xl text-center font-bold underline">Hello world!</h1>
       <div className="flex flex-row justify-center">
         <ButtonComponent text="button1" className="px-5 py-5 ml-3 mt-3" />
