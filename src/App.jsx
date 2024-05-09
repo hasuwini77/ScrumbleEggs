@@ -6,7 +6,8 @@ import HighlightedFeature from "./components/HighlightedFeature";
 import feature1 from "./assets/images/feature1.png";
 import feature2 from "./assets/images/feature2.png";
 import { useState, useEffect } from "react";
-import Hero from ".components/Hero";
+import Hero from "./components/Hero";
+import Footer from "./components/Footer";
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(true);
