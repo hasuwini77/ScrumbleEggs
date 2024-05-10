@@ -1,6 +1,7 @@
 import standupPhoto1 from "../../assets/standupphoto1.jpg";
 import implentingScrum from "../../assets/images/implementing-scrum.jpeg";
 import scrumFramework from "../../assets/scrum-framework.png";
+import agileWorkflow from "../../assets/images/agileWorkflow.jpg";
 
 const DisplayedContent = ({ activeChapter }) => {
   const chapters = {
@@ -23,7 +24,7 @@ const DisplayedContent = ({ activeChapter }) => {
       subtitle4: "",
       paragraph4: "",
       paragraph4b: "",
-      img: "",
+      img: agileWorkflow,
       video: `<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
       <iframe
         style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 75%; height: 75%;"
