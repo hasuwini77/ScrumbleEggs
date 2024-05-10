@@ -8,11 +8,11 @@ const MainContent = () => {
 
   const handleClick = (chapter) => {
     setActiveChapter(chapter);
-    const getWrapper = document.getElementById("title");
-    if (getWrapper) {
-      const offset = 60;
-      const y = element.getBoundingClientRect().top + window.pageYOffset - offset;
-      window.scrollTo({ top: y, behavior: "smooth" });
+    const displayedContentId = document.getElementById("displayedContent");
+    if (displayedContentId) {
+      if (window.innerWidth >= 768) {
+        window.location.href = "#displayedContent";
+      }
     }
   };
 
