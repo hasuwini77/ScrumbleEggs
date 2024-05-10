@@ -29,11 +29,6 @@ function App() {
     <>
       <ScrumNavBar isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
       <Hero isDarkMode={isDarkMode} />
-      <h1 className="text-3xl text-center font-bold underline">Hello world!</h1>
-      <div className="flex flex-row justify-center">
-        <ButtonComponent text="button1" className="px-5 py-5 ml-3 mt-3" />
-        <ButtonComponent text="button2" className="px-5 py-5 ml-3 mt-3" />
-      </div>
       <MainContent />
       <HighlightedFeature title="Feature Title" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris." images={[feature1, feature2]} />
       <OurTeam />
