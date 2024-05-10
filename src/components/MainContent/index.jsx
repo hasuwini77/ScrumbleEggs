@@ -8,6 +8,12 @@ const MainContent = () => {
 
   const handleClick = (chapter) => {
     setActiveChapter(chapter);
+    const displayedContentId = document.getElementById("displayedContent");
+    if (displayedContentId) {
+      if (window.innerWidth >= 768) {
+        window.location.href = "#displayedContent";
+      }
+    }
   };
 
   const handleAnchorClick = (id) => {

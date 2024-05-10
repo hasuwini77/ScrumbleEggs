@@ -211,7 +211,7 @@ const DisplayedContent = ({ activeChapter }) => {
   };
 
   return (
-    <div className="wrapper flex flex-grow align-center justify-start">
+    <div className="wrapper flex flex-grow align-center justify-start" id="displayedContent">
       <div>
         <h2 className="text-2xl p-3">{chapters[activeChapter].title}</h2>
         {chapters[activeChapter].video !== "" ? <div className="video" dangerouslySetInnerHTML={{ __html: chapters[activeChapter].video }} /> : null}
