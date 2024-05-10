@@ -4,26 +4,18 @@ import styles from "./Hero.module.css";
 function Hero({ isDarkMode }) {
   return (
     <>
-      <section className={`${styles.hero} flex flex-col items-center py-10 ss:py-20 sm:py-36`} style={{ backgroundImage: isDarkMode ? "var(--hero-background-dark)" : "var(--hero-background-light)" }}>
-        <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
-          Scrum Guide <span className="bg-gradient-to-r from-blue-500 to-red-800 text-transparent bg-clip-text">for developers</span>
-        </h1>
-        <p className="mt-10 text-lg text-center text-black-500 max-w-4xl">What it is, how it works, and how to start</p>
-        <div className="flex justify-center my-10">
-          <ButtonComponent
-            text="Learn Scrum"
-            className={
-              isDarkMode
-                ? "bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md dark:text-white"
-                : "bg-gradient-to-r from-blue-500 to-red-800 py-3 px-4 mx-3 rounded-md"
-            } />
-          <ButtonComponent
-            text="Our Team"
-            className={
-              isDarkMode
-                ? "bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md dark:text-white"
-                : "bg-gradient-to-r from-blue-500 to-red-800 py-3 px-4 mx-3 rounded-md"
-            } />
+      <section className={`${styles.hero} flex flex-col justify-center items-center h-screen`} style={{ backgroundImage: isDarkMode ? "var(--hero-background-dark)" : "var(--hero-background-light)" }}>
+        <div className="title absolute top-30 md:absolute top-40">
+          <h1 className="text-6xl sm:text-6xl lg:text-7xl text-center tracking-wide bg-gradient-to-r from-purple-500 to-red-800 text-transparent bg-clip-text">
+            Scrum Guide <span className="bg-gradient-to-r from-blue-500 to-red-800 text-transparent bg-clip-text">for developers</span>
+          </h1>
+        </div>
+        <p className={`hidden md:block mt-10 text-lg p-3 rounded-xl text-center max-w-4xl ${isDarkMode ? "bg-gradient-to-br from-purple-500 to-blue-500 text-white shadow-xl font-semibold" : "bg-white bg-opacity-90 backdrop-blur-lg shadow-md font-semibold "}`}>
+          A Guide to Get Started with Learning Scrum
+        </p>
+        <div className="flex justify-center items-center my-10 space-x-4">
+          <ButtonComponent text="Learn Scrum" className={isDarkMode ? "bg-gradient-to-r from-blue-500 to-red-800 py-4 px-8 rounded-lg text-white text-lg h-16" : "bg-gradient-to-r from-orange-500 to-orange-800 py-4 px-8 rounded-lg text-white text-lg h-16"} />
+          <ButtonComponent text="Our Team" className={isDarkMode ? "bg-gradient-to-r from-blue-500 to-red-800 py-4 px-8 rounded-lg text-white text-lg h-16" : "bg-gradient-to-r from-orange-500 to-orange-800 py-4 px-8 rounded-lg text-white text-lg h-16"} />
         </div>
       </section>
     </>
