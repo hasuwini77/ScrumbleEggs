@@ -8,11 +8,16 @@ const MainContent = () => {
 
   const handleClick = (chapter) => {
     setActiveChapter(chapter);
+    const getWrapper = document.getElementById("title");
+    if (getWrapper) {
+      const offset = 60;
+      const y = element.getBoundingClientRect().top + window.pageYOffset - offset;
+      window.scrollTo({ top: y, behavior: "smooth" });
+    }
   };
 
   const handleAnchorClick = (id) => {
     const element = document.getElementById(id);
-    const getWrapper = document.querySelector("wrapper");
     if (element) {
       const offset = 60;
       const y = element.getBoundingClientRect().top + window.pageYOffset - offset;
