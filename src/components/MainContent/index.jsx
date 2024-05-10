@@ -12,6 +12,7 @@ const MainContent = () => {
 
   const handleAnchorClick = (id) => {
     const element = document.getElementById(id);
+    const getWrapper = document.querySelector("wrapper");
     if (element) {
       const offset = 60;
       const y = element.getBoundingClientRect().top + window.pageYOffset - offset;
