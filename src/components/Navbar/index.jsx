@@ -14,7 +14,7 @@ export default function ScrumNavBar({ isDarkMode, toggleTheme }) {
         {/* Below is the Desktop Navbar  */}
         <NavbarMenuToggle aria-label={isMenuOpen ? "Close menu" : "Open menu"} className="sm:hidden" />
         <NavbarBrand>
-          <Logo />
+          <Logo isMenuOpen={isMenuOpen} />
           <p className="font-bold text-inherit">Scrumble Eggs</p>
         </NavbarBrand>
         <NavbarContent className="hidden sm:flex gap-4" justify="center">
