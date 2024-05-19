@@ -27,7 +27,7 @@ const MainContent = () => {
 
   return (
     <>
-      <div className="big-wrapper flex flex-col md:flex-row">
+      <div className="big-wrapper flex flex-col md:flex-row" id="mainContent">
         <div className="accordion-wrapper">
           <div className="sticky top-11 accordeon w-full md:w-[300px] px-5 mr-5">
             <Accordion defaultExpandedKeys={[`${activeChapter}`]} selectionMode="single">

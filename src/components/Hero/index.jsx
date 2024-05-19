@@ -14,8 +14,16 @@ function Hero({ isDarkMode }) {
           A Guide to Get Started with Learning Scrum
         </p>
         <div className="flex justify-center items-center my-10 space-x-4">
-          <ButtonComponent text="Learn Scrum" className={isDarkMode ? "bg-gradient-to-r from-blue-500 to-red-800 py-4 px-8 rounded-lg text-white text-lg h-16" : "bg-gradient-to-r from-orange-500 to-orange-800 py-4 px-8 rounded-lg text-white text-lg h-16"} />
-          <ButtonComponent text="Our Team" className={isDarkMode ? "bg-gradient-to-r from-blue-500 to-red-800 py-4 px-8 rounded-lg text-white text-lg h-16" : "bg-gradient-to-r from-orange-500 to-orange-800 py-4 px-8 rounded-lg text-white text-lg h-16"} />
+          <ButtonComponent
+            text="Learn Scrum"
+            className={isDarkMode ? "bg-gradient-to-r from-blue-500 to-red-800 py-4 px-8 rounded-lg text-white text-lg h-16" : "bg-gradient-to-r from-orange-500 to-orange-800 py-4 px-8 rounded-lg text-white text-lg h-16"}
+            href="#mainContent"
+          />
+          <ButtonComponent
+            text="Our Team"
+            className={isDarkMode ? "bg-gradient-to-r from-blue-500 to-red-800 py-4 px-8 rounded-lg text-white text-lg h-16" : "bg-gradient-to-r from-orange-500 to-orange-800 py-4 px-8 rounded-lg text-white text-lg h-16"}
+            href="#ourTeam"
+          />
         </div>
       </section>
     </>
