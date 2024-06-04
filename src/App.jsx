@@ -30,7 +30,7 @@ function App() {
       <ScrumNavBar isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
       <Hero isDarkMode={isDarkMode} />
       <MainContent />
-      <HighlightedFeature title="Feature Title" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris." images={[feature1, feature2]} />
+      <HighlightedFeature title="Scrum Master Skills" text="While the Scrum Master needs a good set of skills. Agile Scrum, Collaboration, Adaptability, Conflict resolution, Problem solving, coaching, Project Management and leadership are to take into consideration." images={[feature1, feature2]} />
       <OurTeam />
       <Footer />
     </>
