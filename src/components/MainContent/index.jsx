@@ -136,15 +136,6 @@ const MainContent = () => {
                   </li>
                 </ul>
               </AccordionItem>
-              <AccordionItem key="6" aria-label="Accordion 6" title="FAQ" onClick={() => handleClick(6)}>
-                <ul>
-                  <li className="cursor-pointer p-3 hover:bg-slate-700 hover:text-white rounded-lg">
-                    <a onClick={() => handleAnchorClick("subtitle1")} className={styles.anchor}>
-                      Frequently Asked Questions
-                    </a>
-                  </li>
-                </ul>
-              </AccordionItem>
             </Accordion>
           </div>
         </div>
